@@ -1,0 +1,2 @@
+# Preserve the audited bytes on Windows, Linux, and macOS checkouts.
+* -text

@@ -1,0 +1,3142 @@
+{
+  "rng_runs": [
+    6202,
+    6203,
+    6204,
+    6205,
+    6206
+  ],
+  "trials": [
+    {
+      "rng_run": 6202,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/python3",
+        "/home/ubuntu/ns-O-RAN-flexric/mmwave-LENA-oran/test_open/ran_repeat_3qjjdg5q/scripts/ran_live_faults.py",
+        "--repo",
+        "/home/ubuntu/ns-O-RAN-flexric/mmwave-LENA-oran",
+        "--ues",
+        "2",
+        "--seed",
+        "6202",
+        "--sim-seconds",
+        "1.7",
+        "--grace-ms",
+        "300",
+        "--delay-ms",
+        "250",
+        "--fault-start-ms",
+        "300",
+        "--fault-end-ms",
+        "1400",
+        "--forge-start-ms",
+        "1000",
+        "--forge-end-ms",
+        "1400",
+        "--drop-times-ms",
+        "400,600,1100,1300",
+        "--max-wall-seconds",
+        "180"
+      ],
+      "return_code": 0,
+      "folder": "/home/ubuntu/ns-O-RAN-flexric/mmwave-LENA-oran/test_open/ran_faults_ee362efa",
+      "audit": {
+        "audit_status": "PASS",
+        "decision_rows": 579,
+        "delivered_packets_all_cases": 193,
+        "reference_frames": 170,
+        "receipt_rounding_tolerance_seconds": 2e-06,
+        "false_alarm_examples_for_count_rule": [
+          {
+            "case": "delayed",
+            "report_id": 6,
+            "cell_id": 1,
+            "generation_us": 300000,
+            "decision_clock_us": 550000,
+            "reported_imsis": [
+              1
+            ],
+            "latest_reference_imsis": [
+              1,
+              2
+            ]
+          },
+          {
+            "case": "forged_faults",
+            "report_id": 6,
+            "cell_id": 1,
+            "generation_us": 300000,
+            "decision_clock_us": 550000,
+            "reported_imsis": [
+              1
+            ],
+            "latest_reference_imsis": [
+              1,
+              2
+            ]
+          },
+          {
+            "case": "delayed",
+            "report_id": 7,
+            "cell_id": 1,
+            "generation_us": 400000,
+            "decision_clock_us": 650000,
+            "reported_imsis": [
+              1
+            ],
+            "latest_reference_imsis": [
+              1,
+              2
+            ]
+          },
+          {
+            "case": "delayed",
+            "report_id": 9,
+            "cell_id": 1,
+            "generation_us": 500000,
+            "decision_clock_us": 750000,
+            "reported_imsis": [
+              1
+            ],
+            "latest_reference_imsis": [
+              1,
+              2
+            ]
+          },
+          {
+            "case": "forged_faults",
+            "report_id": 9,
+            "cell_id": 1,
+            "generation_us": 500000,
+            "decision_clock_us": 750000,
+            "reported_imsis": [
+              1
+            ],
+            "latest_reference_imsis": [
+              1,
+              2
+            ]
+          }
+        ],
+        "interpretation": "Post-run reconstruction with a per-decision causal cutoff; no verdicts changed."
+      },
+      "summary": {
+        "pipeline_status": "PASS",
+        "stop_reason": "process_exit",
+        "return_code": 0,
+        "wall_seconds": 30.56352155841887,
+        "error": null,
+        "data_issues": [],
+        "counts": {
+          "reference_frames_runner_running": 170,
+          "source_rows_runner_running": 54,
+          "source_reports_runner_running": 43
+        },
+        "reference_frames": 170,
+        "reference_cells": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "membership_changes_after_first_kpm": 2,
+        "count_changes_after_first_kpm": 2,
+        "context_transitions_after_first_kpm": [
+          {
+            "snapshot_us": 510000,
+            "cell_id": 1,
+            "old_count": 1,
+            "new_count": 2,
+            "old_members": [
+              1
+            ],
+            "new_members": [
+              1,
+              2
+            ]
+          },
+          {
+            "snapshot_us": 530000,
+            "cell_id": 2,
+            "old_count": 0,
+            "new_count": 1,
+            "old_members": [],
+            "new_members": [
+              2
+            ]
+          }
+        ],
+        "channel_stats": {
+          "normal": {
+            "source_packets": 43,
+            "source_forged": 0,
+            "dropped_packets": 0,
+            "dropped_forged": 0,
+            "delayed_packets": 0,
+            "delivered_live": 43,
+            "delivered_forged_live": 0,
+            "delivered_outside_live": 0
+          },
+          "missing": {
+            "source_packets": 43,
+            "source_forged": 0,
+            "dropped_packets": 11,
+            "dropped_forged": 0,
+            "delayed_packets": 0,
+            "delivered_live": 32,
+            "delivered_forged_live": 0,
+            "delivered_outside_live": 0
+          },
+          "delayed": {
+            "source_packets": 43,
+            "source_forged": 0,
+            "dropped_packets": 0,
+            "dropped_forged": 0,
+            "delayed_packets": 30,
+            "delivered_live": 43,
+            "delivered_forged_live": 0,
+            "delivered_outside_live": 0
+          },
+          "forged": {
+            "source_packets": 43,
+            "source_forged": 12,
+            "dropped_packets": 0,
+            "dropped_forged": 0,
+            "delayed_packets": 0,
+            "delivered_live": 43,
+            "delivered_forged_live": 12,
+            "delivered_outside_live": 0
+          },
+          "forged_faults": {
+            "source_packets": 43,
+            "source_forged": 12,
+            "dropped_packets": 11,
+            "dropped_forged": 6,
+            "delayed_packets": 19,
+            "delivered_live": 32,
+            "delivered_forged_live": 6,
+            "delivered_outside_live": 0
+          }
+        },
+        "metrics_live_only": {
+          "normal": {
+            "ue_count": {
+              "live_total": 43,
+              "live_benign": 43,
+              "live_attack": 0,
+              "TP": 0,
+              "FP": 0,
+              "TN": 43,
+              "FN": 0,
+              "indeterminate_benign": 0,
+              "indeterminate_attack": 0,
+              "outside_live": 0
+            },
+            "ue_membership": {
+              "live_total": 43,
+              "live_benign": 43,
+              "live_attack": 0,
+              "TP": 0,
+              "FP": 0,
+              "TN": 43,
+              "FN": 0,
+              "indeterminate_benign": 0,
+              "indeterminate_attack": 0,
+              "outside_live": 0
+            },
+            "time_aware": {
+              "live_total": 43,
+              "live_benign": 43,
+              "live_attack": 0,
+              "TP": 0,
+              "FP": 0,
+              "TN": 43,
+              "FN": 0,
+              "indeterminate_benign": 0,
+              "indeterminate_attack": 0,
+              "outside_live": 0
+            }
+          },
+          "missing": {
+            "ue_count": {
+              "live_total": 32,
+              "live_benign": 32,
+              "live_attack": 0,
+              "TP": 0,
+              "FP": 0,
+              "TN": 32,
+              "FN": 0,
+              "indeterminate_benign": 0,
+              "indeterminate_attack": 0,
+              "outside_live": 0
+            },
+            "ue_membership": {
+              "live_total": 32,
+              "live_benign": 32,
+              "live_attack": 0,
+              "TP": 0,
+              "FP": 0,
+              "TN": 32,
+              "FN": 0,
+              "indeterminate_benign": 0,
+              "indeterminate_attack": 0,
+              "outside_live": 0
+            },
+            "time_aware": {
+              "live_total": 32,
+              "live_benign": 32,
+              "live_attack": 0,
+              "TP": 0,
+              "FP": 0,
+              "TN": 32,
+              "FN": 0,
+              "indeterminate_benign": 0,
+              "indeterminate_attack": 0,
+              "outside_live": 0
+            }
+          },
+          "delayed": {
+            "ue_count": {
+              "live_total": 43,
+              "live_benign": 43,
+              "live_attack": 0,
+              "TP": 0,
+              "FP": 3,
+              "TN": 40,
+              "FN": 0,
+              "indeterminate_benign": 0,
+              "indeterminate_attack": 0,
+              "outside_live": 0
+            },
+            "ue_membership": {
+              "live_total": 43,
+              "live_benign": 43,
+              "live_attack": 0,
+              "TP": 0,
+              "FP": 3,
+              "TN": 40,
+              "FN": 0,
+              "indeterminate_benign": 0,
+              "indeterminate_attack": 0,
+              "outside_live": 0
+            },
+            "time_aware": {
+              "live_total": 43,
+              "live_benign": 43,
+              "live_attack": 0,
+              "TP": 0,
+              "FP": 0,
+              "TN": 43,
+              "FN": 0,
+              "indeterminate_benign": 0,
+              "indeterminate_attack": 0,
+              "outside_live": 0
+            }
+          },
+          "forged": {
+            "ue_count": {
+              "live_total": 43,
+              "live_benign": 31,
+              "live_attack": 12,
+              "TP": 12,
+              "FP": 0,
+              "TN": 31,
+              "FN": 0,
+              "indeterminate_benign": 0,
+              "indeterminate_attack": 0,
+              "outside_live": 0
+            },
+            "ue_membership": {
+              "live_total": 43,
+              "live_benign": 31,
+              "live_attack": 12,
+              "TP": 12,
+              "FP": 0,
+              "TN": 31,
+              "FN": 0,
+              "indeterminate_benign": 0,
+              "indeterminate_attack": 0,
+              "outside_live": 0
+            },
+            "time_aware": {
+              "live_total": 43,
+              "live_benign": 31,
+              "live_attack": 12,
+              "TP": 12,
+              "FP": 0,
+              "TN": 31,
+              "FN": 0,
+              "indeterminate_benign": 0,
+              "indeterminate_attack": 0,
+              "outside_live": 0
+            }
+          },
+          "forged_faults": {
+            "ue_count": {
+              "live_total": 32,
+              "live_benign": 26,
+              "live_attack": 6,
+              "TP": 6,
+              "FP": 2,
+              "TN": 24,
+              "FN": 0,
+              "indeterminate_benign": 0,
+              "indeterminate_attack": 0,
+              "outside_live": 0
+            },
+            "ue_membership": {
+              "live_total": 32,
+              "live_benign": 26,
+              "live_attack": 6,
+              "TP": 6,
+              "FP": 2,
+              "TN": 24,
+              "FN": 0,
+              "indeterminate_benign": 0,
+              "indeterminate_attack": 0,
+              "outside_live": 0
+            },
+            "time_aware": {
+              "live_total": 32,
+              "live_benign": 26,
+              "live_attack": 6,
+              "TP": 6,
+              "FP": 0,
+              "TN": 26,
+              "FN": 0,
+              "indeterminate_benign": 0,
+              "indeterminate_attack": 0,
+              "outside_live": 0
+            }
+          }
+        },
+        "rates": {
+          "normal": {
+            "ue_count": {
+              "false_alarm_fraction_of_delivered_benign": 0.0,
+              "detection_fraction_of_delivered_forged": null,
+              "detection_fraction_of_all_injected_forged": null
+            },
+            "ue_membership": {
+              "false_alarm_fraction_of_delivered_benign": 0.0,
+              "detection_fraction_of_delivered_forged": null,
+              "detection_fraction_of_all_injected_forged": null
+            },
+            "time_aware": {
+              "false_alarm_fraction_of_delivered_benign": 0.0,
+              "detection_fraction_of_delivered_forged": null,
+              "detection_fraction_of_all_injected_forged": null
+            }
+          },
+          "missing": {
+            "ue_count": {
+              "false_alarm_fraction_of_delivered_benign": 0.0,
+              "detection_fraction_of_delivered_forged": null,
+              "detection_fraction_of_all_injected_forged": null
+            },
+            "ue_membership": {
+              "false_alarm_fraction_of_delivered_benign": 0.0,
+              "detection_fraction_of_delivered_forged": null,
+              "detection_fraction_of_all_injected_forged": null
+            },
+            "time_aware": {
+              "false_alarm_fraction_of_delivered_benign": 0.0,
+              "detection_fraction_of_delivered_forged": null,
+              "detection_fraction_of_all_injected_forged": null
+            }
+          },
+          "delayed": {
+            "ue_count": {
+              "false_alarm_fraction_of_delivered_benign": 0.06976744186046512,
+              "detection_fraction_of_delivered_forged": null,
+              "detection_fraction_of_all_injected_forged": null
+            },
+            "ue_membership": {
+              "false_alarm_fraction_of_delivered_benign": 0.06976744186046512,
+              "detection_fraction_of_delivered_forged": null,
+              "detection_fraction_of_all_injected_forged": null
+            },
+            "time_aware": {
+              "false_alarm_fraction_of_delivered_benign": 0.0,
+              "detection_fraction_of_delivered_forged": null,
+              "detection_fraction_of_all_injected_forged": null
+            }
+          },
+          "forged": {
+            "ue_count": {
+              "false_alarm_fraction_of_delivered_benign": 0.0,
+              "detection_fraction_of_delivered_forged": 1.0,
+              "detection_fraction_of_all_injected_forged": 1.0
+            },
+            "ue_membership": {
+              "false_alarm_fraction_of_delivered_benign": 0.0,
+              "detection_fraction_of_delivered_forged": 1.0,
+              "detection_fraction_of_all_injected_forged": 1.0
+            },
+            "time_aware": {
+              "false_alarm_fraction_of_delivered_benign": 0.0,
+              "detection_fraction_of_delivered_forged": 1.0,
+              "detection_fraction_of_all_injected_forged": 1.0
+            }
+          },
+          "forged_faults": {
+            "ue_count": {
+              "false_alarm_fraction_of_delivered_benign": 0.07692307692307693,
+              "detection_fraction_of_delivered_forged": 1.0,
+              "detection_fraction_of_all_injected_forged": 0.5
+            },
+            "ue_membership": {
+              "false_alarm_fraction_of_delivered_benign": 0.07692307692307693,
+              "detection_fraction_of_delivered_forged": 1.0,
+              "detection_fraction_of_all_injected_forged": 0.5
+            },
+            "time_aware": {
+              "false_alarm_fraction_of_delivered_benign": 0.0,
+              "detection_fraction_of_delivered_forged": 1.0,
+              "detection_fraction_of_all_injected_forged": 0.5
+            }
+          }
+        },
+        "queued_at_exit": [],
+        "interpretation": "Single paired live fault-channel run; offsets are not exact detection delay."
+      },
+      "transition": {
+        "transition_status": "PASS",
+        "planned_late_attach_us": 500000,
+        "known_ue_ids_before_attach": [
+          1
+        ],
+        "known_ue_ids_at_or_after_attach": [
+          1,
+          2
+        ],
+        "ue2_connection_events": [
+          {
+            "sim_time_us": "506714",
+            "event": "CONNECTION_ESTABLISHED",
+            "imsi": "2",
+            "cell_id": "1",
+            "rnti": "2",
+            "target_cell_id": "0",
+            "rrc_path": "/NodeList/6/DeviceList/0/LteEnbRrc/"
+          },
+          {
+            "sim_time_us": "524767",
+            "event": "CONNECTION_ESTABLISHED",
+            "imsi": "2",
+            "cell_id": "2",
+            "rnti": "1",
+            "target_cell_id": "0",
+            "rrc_path": "/NodeList/3/DeviceList/0/LteEnbRrc/"
+          }
+        ],
+        "late_ue_imsi_values": [
+          2
+        ],
+        "reference_clock_tick_us": 10000,
+        "first_alarm_delay_on_observed_reference_clock": {
+          "forged": {
+            "ue_count": {
+              "episode_start_observed_us": 1000000,
+              "first_alarm_observed_us": 1000000,
+              "delay_ms": 0.0
+            },
+            "ue_membership": {
+              "episode_start_observed_us": 1000000,
+              "first_alarm_observed_us": 1000000,
+              "delay_ms": 0.0
+            },
+            "time_aware": {
+              "episode_start_observed_us": 1000000,
+              "first_alarm_observed_us": 1000000,
+              "delay_ms": 0.0
+            }
+          },
+          "forged_faults": {
+            "ue_count": {
+              "episode_start_observed_us": 1000000,
+              "first_alarm_observed_us": 1250000,
+              "delay_ms": 250.0
+            },
+            "ue_membership": {
+              "episode_start_observed_us": 1000000,
+              "first_alarm_observed_us": 1250000,
+              "delay_ms": 250.0
+            },
+            "time_aware": {
+              "episode_start_observed_us": 1000000,
+              "first_alarm_observed_us": 1250000,
+              "delay_ms": 250.0
+            }
+          }
+        },
+        "delay_is_exact_simulator_or_e2_latency": false,
+        "control": {
+          "late_attach_ms": 500,
+          "ues": 2,
+          "sim_seconds": 1.7,
+          "delay_ms": 250,
+          "grace_ms": 300,
+          "fault_window_ms": [
+            300,
+            1400
+          ],
+          "forgery_window_ms": [
+            1000,
+            1400
+          ],
+          "drop_times_ms": [
+            400,
+            600,
+            1100,
+            1300
+          ],
+          "rng_run": 6202,
+          "source_sha256": {
+            "scratch/scenario-online-security.cc": "bb5b1e6a408e4df5d525d51aa3ffb35fcc1e90f5c2c8bfd711837fb704104962",
+            "src/mmwave/helper/mmwave-helper.cc": "d925479c8a4be7c44bd974e181f71c0607e3be48d9374fd1fe20a788c74f7b1a"
+          },
+          "command": [
+            "/usr/bin/python3",
+            "/home/ubuntu/ns-O-RAN-flexric/mmwave-LENA-oran/test_open/ran_repeat_3qjjdg5q/scripts/ran_live_faults.py",
+            "--repo",
+            "/home/ubuntu/ns-O-RAN-flexric/mmwave-LENA-oran",
+            "--ues",
+            "2",
+            "--seed",
+            "6202",
+            "--sim-seconds",
+            "1.7",
+            "--grace-ms",
+            "300",
+            "--delay-ms",
+            "250",
+            "--fault-start-ms",
+            "300",
+            "--fault-end-ms",
+            "1400",
+            "--forge-start-ms",
+            "1000",
+            "--forge-end-ms",
+            "1400",
+            "--drop-times-ms",
+            "400,600,1100,1300",
+            "--max-wall-seconds",
+            "180"
+          ],
+          "batch_folder": "/home/ubuntu/ns-O-RAN-flexric/mmwave-LENA-oran/test_open/ran_repeat_3qjjdg5q",
+          "attach_mode": "V2 PHY startup / delayed native NAS Connect"
+        },
+        "interpretation": "PHY registered at startup; native NAS Connect delayed for UE index 1. RRC events validate the genuine join; benign delays span it; attacks follow warm-up."
+      }
+    },
+    {
+      "rng_run": 6203,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/python3",
+        "/home/ubuntu/ns-O-RAN-flexric/mmwave-LENA-oran/test_open/ran_repeat_3qjjdg5q/scripts/ran_live_faults.py",
+        "--repo",
+        "/home/ubuntu/ns-O-RAN-flexric/mmwave-LENA-oran",
+        "--ues",
+        "2",
+        "--seed",
+        "6203",
+        "--sim-seconds",
+        "1.7",
+        "--grace-ms",
+        "300",
+        "--delay-ms",
+        "250",
+        "--fault-start-ms",
+        "300",
+        "--fault-end-ms",
+        "1400",
+        "--forge-start-ms",
+        "1000",
+        "--forge-end-ms",
+        "1400",
+        "--drop-times-ms",
+        "400,600,1100,1300",
+        "--max-wall-seconds",
+        "180"
+      ],
+      "return_code": 0,
+      "folder": "/home/ubuntu/ns-O-RAN-flexric/mmwave-LENA-oran/test_open/ran_faults_6cw456g0",
+      "audit": {
+        "audit_status": "PASS",
+        "decision_rows": 579,
+        "delivered_packets_all_cases": 193,
+        "reference_frames": 170,
+        "receipt_rounding_tolerance_seconds": 2e-06,
+        "false_alarm_examples_for_count_rule": [
+          {
+            "case": "delayed",
+            "report_id": 6,
+            "cell_id": 1,
+            "generation_us": 300000,
+            "decision_clock_us": 550000,
+            "reported_imsis": [
+              1
+            ],
+            "latest_reference_imsis": [
+              1,
+              2
+            ]
+          },
+          {
+            "case": "forged_faults",
+            "report_id": 6,
+            "cell_id": 1,
+            "generation_us": 300000,
+            "decision_clock_us": 550000,
+            "reported_imsis": [
+              1
+            ],
+            "latest_reference_imsis": [
+              1,
+              2
+            ]
+          },
+          {
+            "case": "delayed",
+            "report_id": 8,
+            "cell_id": 1,
+            "generation_us": 400000,
+            "decision_clock_us": 650000,
+            "reported_imsis": [
+              1
+            ],
+            "latest_reference_imsis": [
+              1,
+              2
+            ]
+          },
+          {
+            "case": "delayed",
+            "report_id": 9,
+            "cell_id": 1,
+            "generation_us": 500000,
+            "decision_clock_us": 750000,
+            "reported_imsis": [
+              1
+            ],
+            "latest_reference_imsis": [
+              1,
+              2
+            ]
+          },
+          {
+            "case": "forged_faults",
+            "report_id": 9,
+            "cell_id": 1,
+            "generation_us": 500000,
+            "decision_clock_us": 750000,
+            "reported_imsis": [
+              1
+            ],
+            "latest_reference_imsis": [
+              1,
+              2
+            ]
+          }
+        ],
+        "interpretation": "Post-run reconstruction with a per-decision causal cutoff; no verdicts changed."
+      },
+      "summary": {
+        "pipeline_status": "PASS",
+        "stop_reason": "process_exit",
+        "return_code": 0,
+        "wall_seconds": 29.62122351396829,
+        "error": null,
+        "data_issues": [],
+        "counts": {
+          "reference_frames_runner_running": 170,
+          "source_rows_runner_running": 54,
+          "source_reports_runner_running": 43
+        },
+        "reference_frames": 170,
+        "reference_cells": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "membership_changes_after_first_kpm": 2,
+        "count_changes_after_first_kpm": 2,
+        "context_transitions_after_first_kpm": [
+          {
+            "snapshot_us": 510000,
+            "cell_id": 1,
+            "old_count": 1,
+            "new_count": 2,
+            "old_members": [
+              1
+            ],
+            "new_members": [
+              1,
+              2
+            ]
+          },
+          {
+            "snapshot_us": 530000,
+            "cell_id": 2,
+            "old_count": 0,
+            "new_count": 1,
+            "old_members": [],
+            "new_members": [
+              2
+            ]
+          }
+        ],
+        "channel_stats": {
+          "normal": {
+            "source_packets": 43,
+            "source_forged": 0,
+            "dropped_packets": 0,
+            "dropped_forged": 0,
+            "delayed_packets": 0,
+            "delivered_live": 43,
+            "delivered_forged_live": 0,
+            "delivered_outside_live": 0
+          },
+          "missing": {
+            "source_packets": 43,
+            "source_forged": 0,
+            "dropped_packets": 11,
+            "dropped_forged": 0,
+            "delayed_packets": 0,
+            "delivered_live": 32,
+            "delivered_forged_live": 0,
+            "delivered_outside_live": 0
+          },
+          "delayed": {
+            "source_packets": 43,
+            "source_forged": 0,
+            "dropped_packets": 0,
+            "dropped_forged": 0,
+            "delayed_packets": 30,
+            "delivered_live": 43,
+            "delivered_forged_live": 0,
+            "delivered_outside_live": 0
+          },
+          "forged": {
+            "source_packets": 43,
+            "source_forged": 12,
+            "dropped_packets": 0,
+            "dropped_forged": 0,
+            "delayed_packets": 0,
+            "delivered_live": 43,
+            "delivered_forged_live": 12,
+            "delivered_outside_live": 0
+          },
+          "forged_faults": {
+            "source_packets": 43,
+            "source_forged": 12,
+            "dropped_packets": 11,
+            "dropped_forged": 6,
+            "delayed_packets": 19,
+            "delivered_live": 32,
+            "delivered_forged_live": 6,
+            "delivered_outside_live": 0
+          }
+        },
+        "metrics_live_only": {
+          "normal": {
+            "ue_count": {
+              "live_total": 43,
+              "live_benign": 43,
+              "live_attack": 0,
+              "TP": 0,
+              "FP": 0,
+              "TN": 43,
+              "FN": 0,
+              "indeterminate_benign": 0,
+              "indeterminate_attack": 0,
+              "outside_live": 0
+            },
+            "ue_membership": {
+              "live_total": 43,
+              "live_benign": 43,
+              "live_attack": 0,
+              "TP": 0,
+              "FP": 0,
+              "TN": 43,
+              "FN": 0,
+              "indeterminate_benign": 0,
+              "indeterminate_attack": 0,
+              "outside_live": 0
+            },
+            "time_aware": {
+              "live_total": 43,
+              "live_benign": 43,
+              "live_attack": 0,
+              "TP": 0,
+              "FP": 0,
+              "TN": 43,
+              "FN": 0,
+              "indeterminate_benign": 0,
+              "indeterminate_attack": 0,
+              "outside_live": 0
+            }
+          },
+          "missing": {
+            "ue_count": {
+              "live_total": 32,
+              "live_benign": 32,
+              "live_attack": 0,
+              "TP": 0,
+              "FP": 0,
+              "TN": 32,
+              "FN": 0,
+              "indeterminate_benign": 0,
+              "indeterminate_attack": 0,
+              "outside_live": 0
+            },
+            "ue_membership": {
+              "live_total": 32,
+              "live_benign": 32,
+              "live_attack": 0,
+              "TP": 0,
+              "FP": 0,
+              "TN": 32,
+              "FN": 0,
+              "indeterminate_benign": 0,
+              "indeterminate_attack": 0,
+              "outside_live": 0
+            },
+            "time_aware": {
+              "live_total": 32,
+              "live_benign": 32,
+              "live_attack": 0,
+              "TP": 0,
+              "FP": 0,
+              "TN": 32,
+              "FN": 0,
+              "indeterminate_benign": 0,
+              "indeterminate_attack": 0,
+              "outside_live": 0
+            }
+          },
+          "delayed": {
+            "ue_count": {
+              "live_total": 43,
+              "live_benign": 43,
+              "live_attack": 0,
+              "TP": 0,
+              "FP": 3,
+              "TN": 40,
+              "FN": 0,
+              "indeterminate_benign": 0,
+              "indeterminate_attack": 0,
+              "outside_live": 0
+            },
+            "ue_membership": {
+              "live_total": 43,
+              "live_benign": 43,
+              "live_attack": 0,
+              "TP": 0,
+              "FP": 3,
+              "TN": 40,
+              "FN": 0,
+              "indeterminate_benign": 0,
+              "indeterminate_attack": 0,
+              "outside_live": 0
+            },
+            "time_aware": {
+              "live_total": 43,
+              "live_benign": 43,
+              "live_attack": 0,
+              "TP": 0,
+              "FP": 0,
+              "TN": 43,
+              "FN": 0,
+              "indeterminate_benign": 0,
+              "indeterminate_attack": 0,
+              "outside_live": 0
+            }
+          },
+          "forged": {
+            "ue_count": {
+              "live_total": 43,
+              "live_benign": 31,
+              "live_attack": 12,
+              "TP": 12,
+              "FP": 0,
+              "TN": 31,
+              "FN": 0,
+              "indeterminate_benign": 0,
+              "indeterminate_attack": 0,
+              "outside_live": 0
+            },
+            "ue_membership": {
+              "live_total": 43,
+              "live_benign": 31,
+              "live_attack": 12,
+              "TP": 12,
+              "FP": 0,
+              "TN": 31,
+              "FN": 0,
+              "indeterminate_benign": 0,
+              "indeterminate_attack": 0,
+              "outside_live": 0
+            },
+            "time_aware": {
+              "live_total": 43,
+              "live_benign": 31,
+              "live_attack": 12,
+              "TP": 12,
+              "FP": 0,
+              "TN": 31,
+              "FN": 0,
+              "indeterminate_benign": 0,
+              "indeterminate_attack": 0,
+              "outside_live": 0
+            }
+          },
+          "forged_faults": {
+            "ue_count": {
+              "live_total": 32,
+              "live_benign": 26,
+              "live_attack": 6,
+              "TP": 6,
+              "FP": 2,
+              "TN": 24,
+              "FN": 0,
+              "indeterminate_benign": 0,
+              "indeterminate_attack": 0,
+              "outside_live": 0
+            },
+            "ue_membership": {
+              "live_total": 32,
+              "live_benign": 26,
+              "live_attack": 6,
+              "TP": 6,
+              "FP": 2,
+              "TN": 24,
+              "FN": 0,
+              "indeterminate_benign": 0,
+              "indeterminate_attack": 0,
+              "outside_live": 0
+            },
+            "time_aware": {
+              "live_total": 32,
+              "live_benign": 26,
+              "live_attack": 6,
+              "TP": 6,
+              "FP": 0,
+              "TN": 26,
+              "FN": 0,
+              "indeterminate_benign": 0,
+              "indeterminate_attack": 0,
+              "outside_live": 0
+            }
+          }
+        },
+        "rates": {
+          "normal": {
+            "ue_count": {
+              "false_alarm_fraction_of_delivered_benign": 0.0,
+              "detection_fraction_of_delivered_forged": null,
+              "detection_fraction_of_all_injected_forged": null
+            },
+            "ue_membership": {
+              "false_alarm_fraction_of_delivered_benign": 0.0,
+              "detection_fraction_of_delivered_forged": null,
+              "detection_fraction_of_all_injected_forged": null
+            },
+            "time_aware": {
+              "false_alarm_fraction_of_delivered_benign": 0.0,
+              "detection_fraction_of_delivered_forged": null,
+              "detection_fraction_of_all_injected_forged": null
+            }
+          },
+          "missing": {
+            "ue_count": {
+              "false_alarm_fraction_of_delivered_benign": 0.0,
+              "detection_fraction_of_delivered_forged": null,
+              "detection_fraction_of_all_injected_forged": null
+            },
+            "ue_membership": {
+              "false_alarm_fraction_of_delivered_benign": 0.0,
+              "detection_fraction_of_delivered_forged": null,
+              "detection_fraction_of_all_injected_forged": null
+            },
+            "time_aware": {
+              "false_alarm_fraction_of_delivered_benign": 0.0,
+              "detection_fraction_of_delivered_forged": null,
+              "detection_fraction_of_all_injected_forged": null
+            }
+          },
+          "delayed": {
+            "ue_count": {
+              "false_alarm_fraction_of_delivered_benign": 0.06976744186046512,
+              "detection_fraction_of_delivered_forged": null,
+              "detection_fraction_of_all_injected_forged": null
+            },
+            "ue_membership": {
+              "false_alarm_fraction_of_delivered_benign": 0.06976744186046512,
+              "detection_fraction_of_delivered_forged": null,
+              "detection_fraction_of_all_injected_forged": null
+            },
+            "time_aware": {
+              "false_alarm_fraction_of_delivered_benign": 0.0,
+              "detection_fraction_of_delivered_forged": null,
+              "detection_fraction_of_all_injected_forged": null
+            }
+          },
+          "forged": {
+            "ue_count": {
+              "false_alarm_fraction_of_delivered_benign": 0.0,
+              "detection_fraction_of_delivered_forged": 1.0,
+              "detection_fraction_of_all_injected_forged": 1.0
+            },
+            "ue_membership": {
+              "false_alarm_fraction_of_delivered_benign": 0.0,
+              "detection_fraction_of_delivered_forged": 1.0,
+              "detection_fraction_of_all_injected_forged": 1.0
+            },
+            "time_aware": {
+              "false_alarm_fraction_of_delivered_benign": 0.0,
+              "detection_fraction_of_delivered_forged": 1.0,
+              "detection_fraction_of_all_injected_forged": 1.0
+            }
+          },
+          "forged_faults": {
+            "ue_count": {
+              "false_alarm_fraction_of_delivered_benign": 0.07692307692307693,
+              "detection_fraction_of_delivered_forged": 1.0,
+              "detection_fraction_of_all_injected_forged": 0.5
+            },
+            "ue_membership": {
+              "false_alarm_fraction_of_delivered_benign": 0.07692307692307693,
+              "detection_fraction_of_delivered_forged": 1.0,
+              "detection_fraction_of_all_injected_forged": 0.5
+            },
+            "time_aware": {
+              "false_alarm_fraction_of_delivered_benign": 0.0,
+              "detection_fraction_of_delivered_forged": 1.0,
+              "detection_fraction_of_all_injected_forged": 0.5
+            }
+          }
+        },
+        "queued_at_exit": [],
+        "interpretation": "Single paired live fault-channel run; offsets are not exact detection delay."
+      },
+      "transition": {
+        "transition_status": "PASS",
+        "planned_late_attach_us": 500000,
+        "known_ue_ids_before_attach": [
+          1
+        ],
+        "known_ue_ids_at_or_after_attach": [
+          1,
+          2
+        ],
+        "ue2_connection_events": [
+          {
+            "sim_time_us": "506714",
+            "event": "CONNECTION_ESTABLISHED",
+            "imsi": "2",
+            "cell_id": "1",
+            "rnti": "2",
+            "target_cell_id": "0",
+            "rrc_path": "/NodeList/6/DeviceList/0/LteEnbRrc/"
+          },
+          {
+            "sim_time_us": "524767",
+            "event": "CONNECTION_ESTABLISHED",
+            "imsi": "2",
+            "cell_id": "2",
+            "rnti": "1",
+            "target_cell_id": "0",
+            "rrc_path": "/NodeList/3/DeviceList/0/LteEnbRrc/"
+          }
+        ],
+        "late_ue_imsi_values": [
+          2
+        ],
+        "reference_clock_tick_us": 10000,
+        "first_alarm_delay_on_observed_reference_clock": {
+          "forged": {
+            "ue_count": {
+              "episode_start_observed_us": 1000000,
+              "first_alarm_observed_us": 1000000,
+              "delay_ms": 0.0
+            },
+            "ue_membership": {
+              "episode_start_observed_us": 1000000,
+              "first_alarm_observed_us": 1000000,
+              "delay_ms": 0.0
+            },
+            "time_aware": {
+              "episode_start_observed_us": 1000000,
+              "first_alarm_observed_us": 1000000,
+              "delay_ms": 0.0
+            }
+          },
+          "forged_faults": {
+            "ue_count": {
+              "episode_start_observed_us": 1000000,
+              "first_alarm_observed_us": 1250000,
+              "delay_ms": 250.0
+            },
+            "ue_membership": {
+              "episode_start_observed_us": 1000000,
+              "first_alarm_observed_us": 1250000,
+              "delay_ms": 250.0
+            },
+            "time_aware": {
+              "episode_start_observed_us": 1000000,
+              "first_alarm_observed_us": 1250000,
+              "delay_ms": 250.0
+            }
+          }
+        },
+        "delay_is_exact_simulator_or_e2_latency": false,
+        "control": {
+          "late_attach_ms": 500,
+          "ues": 2,
+          "sim_seconds": 1.7,
+          "delay_ms": 250,
+          "grace_ms": 300,
+          "fault_window_ms": [
+            300,
+            1400
+          ],
+          "forgery_window_ms": [
+            1000,
+            1400
+          ],
+          "drop_times_ms": [
+            400,
+            600,
+            1100,
+            1300
+          ],
+          "rng_run": 6203,
+          "source_sha256": {
+            "scratch/scenario-online-security.cc": "bb5b1e6a408e4df5d525d51aa3ffb35fcc1e90f5c2c8bfd711837fb704104962",
+            "src/mmwave/helper/mmwave-helper.cc": "d925479c8a4be7c44bd974e181f71c0607e3be48d9374fd1fe20a788c74f7b1a"
+          },
+          "command": [
+            "/usr/bin/python3",
+            "/home/ubuntu/ns-O-RAN-flexric/mmwave-LENA-oran/test_open/ran_repeat_3qjjdg5q/scripts/ran_live_faults.py",
+            "--repo",
+            "/home/ubuntu/ns-O-RAN-flexric/mmwave-LENA-oran",
+            "--ues",
+            "2",
+            "--seed",
+            "6203",
+            "--sim-seconds",
+            "1.7",
+            "--grace-ms",
+            "300",
+            "--delay-ms",
+            "250",
+            "--fault-start-ms",
+            "300",
+            "--fault-end-ms",
+            "1400",
+            "--forge-start-ms",
+            "1000",
+            "--forge-end-ms",
+            "1400",
+            "--drop-times-ms",
+            "400,600,1100,1300",
+            "--max-wall-seconds",
+            "180"
+          ],
+          "batch_folder": "/home/ubuntu/ns-O-RAN-flexric/mmwave-LENA-oran/test_open/ran_repeat_3qjjdg5q",
+          "attach_mode": "V2 PHY startup / delayed native NAS Connect"
+        },
+        "interpretation": "PHY registered at startup; native NAS Connect delayed for UE index 1. RRC events validate the genuine join; benign delays span it; attacks follow warm-up."
+      }
+    },
+    {
+      "rng_run": 6204,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/python3",
+        "/home/ubuntu/ns-O-RAN-flexric/mmwave-LENA-oran/test_open/ran_repeat_3qjjdg5q/scripts/ran_live_faults.py",
+        "--repo",
+        "/home/ubuntu/ns-O-RAN-flexric/mmwave-LENA-oran",
+        "--ues",
+        "2",
+        "--seed",
+        "6204",
+        "--sim-seconds",
+        "1.7",
+        "--grace-ms",
+        "300",
+        "--delay-ms",
+        "250",
+        "--fault-start-ms",
+        "300",
+        "--fault-end-ms",
+        "1400",
+        "--forge-start-ms",
+        "1000",
+        "--forge-end-ms",
+        "1400",
+        "--drop-times-ms",
+        "400,600,1100,1300",
+        "--max-wall-seconds",
+        "180"
+      ],
+      "return_code": 0,
+      "folder": "/home/ubuntu/ns-O-RAN-flexric/mmwave-LENA-oran/test_open/ran_faults_h02dd8_a",
+      "audit": {
+        "audit_status": "PASS",
+        "decision_rows": 216,
+        "delivered_packets_all_cases": 72,
+        "reference_frames": 170,
+        "receipt_rounding_tolerance_seconds": 2e-06,
+        "false_alarm_examples_for_count_rule": [
+          {
+            "case": "delayed",
+            "report_id": 3,
+            "cell_id": 1,
+            "generation_us": 300000,
+            "decision_clock_us": 550000,
+            "reported_imsis": [
+              1
+            ],
+            "latest_reference_imsis": [
+              1,
+              2
+            ]
+          },
+          {
+            "case": "forged_faults",
+            "report_id": 3,
+            "cell_id": 1,
+            "generation_us": 300000,
+            "decision_clock_us": 550000,
+            "reported_imsis": [
+              1
+            ],
+            "latest_reference_imsis": [
+              1,
+              2
+            ]
+          },
+          {
+            "case": "delayed",
+            "report_id": 4,
+            "cell_id": 1,
+            "generation_us": 400000,
+            "decision_clock_us": 650000,
+            "reported_imsis": [
+              1
+            ],
+            "latest_reference_imsis": [
+              1,
+              2
+            ]
+          },
+          {
+            "case": "delayed",
+            "report_id": 5,
+            "cell_id": 1,
+            "generation_us": 500000,
+            "decision_clock_us": 750000,
+            "reported_imsis": [
+              1
+            ],
+            "latest_reference_imsis": [
+              1,
+              2
+            ]
+          },
+          {
+            "case": "forged_faults",
+            "report_id": 5,
+            "cell_id": 1,
+            "generation_us": 500000,
+            "decision_clock_us": 750000,
+            "reported_imsis": [
+              1
+            ],
+            "latest_reference_imsis": [
+              1,
+              2
+            ]
+          }
+        ],
+        "interpretation": "Post-run reconstruction with a per-decision causal cutoff; no verdicts changed."
+      },
+      "summary": {
+        "pipeline_status": "PASS",
+        "stop_reason": "process_exit",
+        "return_code": 0,
+        "wall_seconds": 24.128086579032242,
+        "error": null,
+        "data_issues": [],
+        "counts": {
+          "reference_frames_runner_running": 170,
+          "source_rows_runner_running": 27,
+          "source_reports_runner_running": 16
+        },
+        "reference_frames": 170,
+        "reference_cells": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "membership_changes_after_first_kpm": 1,
+        "count_changes_after_first_kpm": 1,
+        "context_transitions_after_first_kpm": [
+          {
+            "snapshot_us": 510000,
+            "cell_id": 1,
+            "old_count": 1,
+            "new_count": 2,
+            "old_members": [
+              1
+            ],
+            "new_members": [
+              1,
+              2
+            ]
+          }
+        ],
+        "channel_stats": {
+          "normal": {
+            "source_packets": 16,
+            "source_forged": 0,
+            "dropped_packets": 0,
+            "dropped_forged": 0,
+            "delayed_packets": 0,
+            "delivered_live": 16,
+            "delivered_forged_live": 0,
+            "delivered_outside_live": 0
+          },
+          "missing": {
+            "source_packets": 16,
+            "source_forged": 0,
+            "dropped_packets": 4,
+            "dropped_forged": 0,
+            "delayed_packets": 0,
+            "delivered_live": 12,
+            "delivered_forged_live": 0,
+            "delivered_outside_live": 0
+          },
+          "delayed": {
+            "source_packets": 16,
+            "source_forged": 0,
+            "dropped_packets": 0,
+            "dropped_forged": 0,
+            "delayed_packets": 11,
+            "delivered_live": 16,
+            "delivered_forged_live": 0,
+            "delivered_outside_live": 0
+          },
+          "forged": {
+            "source_packets": 16,
+            "source_forged": 4,
+            "dropped_packets": 0,
+            "dropped_forged": 0,
+            "delayed_packets": 0,
+            "delivered_live": 16,
+            "delivered_forged_live": 4,
+            "delivered_outside_live": 0
+          },
+          "forged_faults": {
+            "source_packets": 16,
+            "source_forged": 4,
+            "dropped_packets": 4,
+            "dropped_forged": 2,
+            "delayed_packets": 7,
+            "delivered_live": 12,
+            "delivered_forged_live": 2,
+            "delivered_outside_live": 0
+          }
+        },
+        "metrics_live_only": {
+          "normal": {
+            "ue_count": {
+              "live_total": 16,
+              "live_benign": 16,
+              "live_attack": 0,
+              "TP": 0,
+              "FP": 0,
+              "TN": 16,
+              "FN": 0,
+              "indeterminate_benign": 0,
+              "indeterminate_attack": 0,
+              "outside_live": 0
+            },
+            "ue_membership": {
+              "live_total": 16,
+              "live_benign": 16,
+              "live_attack": 0,
+              "TP": 0,
+              "FP": 0,
+              "TN": 16,
+              "FN": 0,
+              "indeterminate_benign": 0,
+              "indeterminate_attack": 0,
+              "outside_live": 0
+            },
+            "time_aware": {
+              "live_total": 16,
+              "live_benign": 16,
+              "live_attack": 0,
+              "TP": 0,
+              "FP": 0,
+              "TN": 16,
+              "FN": 0,
+              "indeterminate_benign": 0,
+              "indeterminate_attack": 0,
+              "outside_live": 0
+            }
+          },
+          "missing": {
+            "ue_count": {
+              "live_total": 12,
+              "live_benign": 12,
+              "live_attack": 0,
+              "TP": 0,
+              "FP": 0,
+              "TN": 12,
+              "FN": 0,
+              "indeterminate_benign": 0,
+              "indeterminate_attack": 0,
+              "outside_live": 0
+            },
+            "ue_membership": {
+              "live_total": 12,
+              "live_benign": 12,
+              "live_attack": 0,
+              "TP": 0,
+              "FP": 0,
+              "TN": 12,
+              "FN": 0,
+              "indeterminate_benign": 0,
+              "indeterminate_attack": 0,
+              "outside_live": 0
+            },
+            "time_aware": {
+              "live_total": 12,
+              "live_benign": 12,
+              "live_attack": 0,
+              "TP": 0,
+              "FP": 0,
+              "TN": 12,
+              "FN": 0,
+              "indeterminate_benign": 0,
+              "indeterminate_attack": 0,
+              "outside_live": 0
+            }
+          },
+          "delayed": {
+            "ue_count": {
+              "live_total": 16,
+              "live_benign": 16,
+              "live_attack": 0,
+              "TP": 0,
+              "FP": 3,
+              "TN": 13,
+              "FN": 0,
+              "indeterminate_benign": 0,
+              "indeterminate_attack": 0,
+              "outside_live": 0
+            },
+            "ue_membership": {
+              "live_total": 16,
+              "live_benign": 16,
+              "live_attack": 0,
+              "TP": 0,
+              "FP": 3,
+              "TN": 13,
+              "FN": 0,
+              "indeterminate_benign": 0,
+              "indeterminate_attack": 0,
+              "outside_live": 0
+            },
+            "time_aware": {
+              "live_total": 16,
+              "live_benign": 16,
+              "live_attack": 0,
+              "TP": 0,
+              "FP": 0,
+              "TN": 16,
+              "FN": 0,
+              "indeterminate_benign": 0,
+              "indeterminate_attack": 0,
+              "outside_live": 0
+            }
+          },
+          "forged": {
+            "ue_count": {
+              "live_total": 16,
+              "live_benign": 12,
+              "live_attack": 4,
+              "TP": 4,
+              "FP": 0,
+              "TN": 12,
+              "FN": 0,
+              "indeterminate_benign": 0,
+              "indeterminate_attack": 0,
+              "outside_live": 0
+            },
+            "ue_membership": {
+              "live_total": 16,
+              "live_benign": 12,
+              "live_attack": 4,
+              "TP": 4,
+              "FP": 0,
+              "TN": 12,
+              "FN": 0,
+              "indeterminate_benign": 0,
+              "indeterminate_attack": 0,
+              "outside_live": 0
+            },
+            "time_aware": {
+              "live_total": 16,
+              "live_benign": 12,
+              "live_attack": 4,
+              "TP": 4,
+              "FP": 0,
+              "TN": 12,
+              "FN": 0,
+              "indeterminate_benign": 0,
+              "indeterminate_attack": 0,
+              "outside_live": 0
+            }
+          },
+          "forged_faults": {
+            "ue_count": {
+              "live_total": 12,
+              "live_benign": 10,
+              "live_attack": 2,
+              "TP": 2,
+              "FP": 2,
+              "TN": 8,
+              "FN": 0,
+              "indeterminate_benign": 0,
+              "indeterminate_attack": 0,
+              "outside_live": 0
+            },
+            "ue_membership": {
+              "live_total": 12,
+              "live_benign": 10,
+              "live_attack": 2,
+              "TP": 2,
+              "FP": 2,
+              "TN": 8,
+              "FN": 0,
+              "indeterminate_benign": 0,
+              "indeterminate_attack": 0,
+              "outside_live": 0
+            },
+            "time_aware": {
+              "live_total": 12,
+              "live_benign": 10,
+              "live_attack": 2,
+              "TP": 2,
+              "FP": 0,
+              "TN": 10,
+              "FN": 0,
+              "indeterminate_benign": 0,
+              "indeterminate_attack": 0,
+              "outside_live": 0
+            }
+          }
+        },
+        "rates": {
+          "normal": {
+            "ue_count": {
+              "false_alarm_fraction_of_delivered_benign": 0.0,
+              "detection_fraction_of_delivered_forged": null,
+              "detection_fraction_of_all_injected_forged": null
+            },
+            "ue_membership": {
+              "false_alarm_fraction_of_delivered_benign": 0.0,
+              "detection_fraction_of_delivered_forged": null,
+              "detection_fraction_of_all_injected_forged": null
+            },
+            "time_aware": {
+              "false_alarm_fraction_of_delivered_benign": 0.0,
+              "detection_fraction_of_delivered_forged": null,
+              "detection_fraction_of_all_injected_forged": null
+            }
+          },
+          "missing": {
+            "ue_count": {
+              "false_alarm_fraction_of_delivered_benign": 0.0,
+              "detection_fraction_of_delivered_forged": null,
+              "detection_fraction_of_all_injected_forged": null
+            },
+            "ue_membership": {
+              "false_alarm_fraction_of_delivered_benign": 0.0,
+              "detection_fraction_of_delivered_forged": null,
+              "detection_fraction_of_all_injected_forged": null
+            },
+            "time_aware": {
+              "false_alarm_fraction_of_delivered_benign": 0.0,
+              "detection_fraction_of_delivered_forged": null,
+              "detection_fraction_of_all_injected_forged": null
+            }
+          },
+          "delayed": {
+            "ue_count": {
+              "false_alarm_fraction_of_delivered_benign": 0.1875,
+              "detection_fraction_of_delivered_forged": null,
+              "detection_fraction_of_all_injected_forged": null
+            },
+            "ue_membership": {
+              "false_alarm_fraction_of_delivered_benign": 0.1875,
+              "detection_fraction_of_delivered_forged": null,
+              "detection_fraction_of_all_injected_forged": null
+            },
+            "time_aware": {
+              "false_alarm_fraction_of_delivered_benign": 0.0,
+              "detection_fraction_of_delivered_forged": null,
+              "detection_fraction_of_all_injected_forged": null
+            }
+          },
+          "forged": {
+            "ue_count": {
+              "false_alarm_fraction_of_delivered_benign": 0.0,
+              "detection_fraction_of_delivered_forged": 1.0,
+              "detection_fraction_of_all_injected_forged": 1.0
+            },
+            "ue_membership": {
+              "false_alarm_fraction_of_delivered_benign": 0.0,
+              "detection_fraction_of_delivered_forged": 1.0,
+              "detection_fraction_of_all_injected_forged": 1.0
+            },
+            "time_aware": {
+              "false_alarm_fraction_of_delivered_benign": 0.0,
+              "detection_fraction_of_delivered_forged": 1.0,
+              "detection_fraction_of_all_injected_forged": 1.0
+            }
+          },
+          "forged_faults": {
+            "ue_count": {
+              "false_alarm_fraction_of_delivered_benign": 0.2,
+              "detection_fraction_of_delivered_forged": 1.0,
+              "detection_fraction_of_all_injected_forged": 0.5
+            },
+            "ue_membership": {
+              "false_alarm_fraction_of_delivered_benign": 0.2,
+              "detection_fraction_of_delivered_forged": 1.0,
+              "detection_fraction_of_all_injected_forged": 0.5
+            },
+            "time_aware": {
+              "false_alarm_fraction_of_delivered_benign": 0.0,
+              "detection_fraction_of_delivered_forged": 1.0,
+              "detection_fraction_of_all_injected_forged": 0.5
+            }
+          }
+        },
+        "queued_at_exit": [],
+        "interpretation": "Single paired live fault-channel run; offsets are not exact detection delay."
+      },
+      "transition": {
+        "transition_status": "PASS",
+        "planned_late_attach_us": 500000,
+        "known_ue_ids_before_attach": [
+          1
+        ],
+        "known_ue_ids_at_or_after_attach": [
+          1,
+          2
+        ],
+        "ue2_connection_events": [
+          {
+            "sim_time_us": "506714",
+            "event": "CONNECTION_ESTABLISHED",
+            "imsi": "2",
+            "cell_id": "1",
+            "rnti": "2",
+            "target_cell_id": "0",
+            "rrc_path": "/NodeList/6/DeviceList/0/LteEnbRrc/"
+          }
+        ],
+        "late_ue_imsi_values": [
+          2
+        ],
+        "reference_clock_tick_us": 10000,
+        "first_alarm_delay_on_observed_reference_clock": {
+          "forged": {
+            "ue_count": {
+              "episode_start_observed_us": 1000000,
+              "first_alarm_observed_us": 1000000,
+              "delay_ms": 0.0
+            },
+            "ue_membership": {
+              "episode_start_observed_us": 1000000,
+              "first_alarm_observed_us": 1000000,
+              "delay_ms": 0.0
+            },
+            "time_aware": {
+              "episode_start_observed_us": 1000000,
+              "first_alarm_observed_us": 1000000,
+              "delay_ms": 0.0
+            }
+          },
+          "forged_faults": {
+            "ue_count": {
+              "episode_start_observed_us": 1000000,
+              "first_alarm_observed_us": 1250000,
+              "delay_ms": 250.0
+            },
+            "ue_membership": {
+              "episode_start_observed_us": 1000000,
+              "first_alarm_observed_us": 1250000,
+              "delay_ms": 250.0
+            },
+            "time_aware": {
+              "episode_start_observed_us": 1000000,
+              "first_alarm_observed_us": 1250000,
+              "delay_ms": 250.0
+            }
+          }
+        },
+        "delay_is_exact_simulator_or_e2_latency": false,
+        "control": {
+          "late_attach_ms": 500,
+          "ues": 2,
+          "sim_seconds": 1.7,
+          "delay_ms": 250,
+          "grace_ms": 300,
+          "fault_window_ms": [
+            300,
+            1400
+          ],
+          "forgery_window_ms": [
+            1000,
+            1400
+          ],
+          "drop_times_ms": [
+            400,
+            600,
+            1100,
+            1300
+          ],
+          "rng_run": 6204,
+          "source_sha256": {
+            "scratch/scenario-online-security.cc": "bb5b1e6a408e4df5d525d51aa3ffb35fcc1e90f5c2c8bfd711837fb704104962",
+            "src/mmwave/helper/mmwave-helper.cc": "d925479c8a4be7c44bd974e181f71c0607e3be48d9374fd1fe20a788c74f7b1a"
+          },
+          "command": [
+            "/usr/bin/python3",
+            "/home/ubuntu/ns-O-RAN-flexric/mmwave-LENA-oran/test_open/ran_repeat_3qjjdg5q/scripts/ran_live_faults.py",
+            "--repo",
+            "/home/ubuntu/ns-O-RAN-flexric/mmwave-LENA-oran",
+            "--ues",
+            "2",
+            "--seed",
+            "6204",
+            "--sim-seconds",
+            "1.7",
+            "--grace-ms",
+            "300",
+            "--delay-ms",
+            "250",
+            "--fault-start-ms",
+            "300",
+            "--fault-end-ms",
+            "1400",
+            "--forge-start-ms",
+            "1000",
+            "--forge-end-ms",
+            "1400",
+            "--drop-times-ms",
+            "400,600,1100,1300",
+            "--max-wall-seconds",
+            "180"
+          ],
+          "batch_folder": "/home/ubuntu/ns-O-RAN-flexric/mmwave-LENA-oran/test_open/ran_repeat_3qjjdg5q",
+          "attach_mode": "V2 PHY startup / delayed native NAS Connect"
+        },
+        "interpretation": "PHY registered at startup; native NAS Connect delayed for UE index 1. RRC events validate the genuine join; benign delays span it; attacks follow warm-up."
+      }
+    },
+    {
+      "rng_run": 6205,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/python3",
+        "/home/ubuntu/ns-O-RAN-flexric/mmwave-LENA-oran/test_open/ran_repeat_3qjjdg5q/scripts/ran_live_faults.py",
+        "--repo",
+        "/home/ubuntu/ns-O-RAN-flexric/mmwave-LENA-oran",
+        "--ues",
+        "2",
+        "--seed",
+        "6205",
+        "--sim-seconds",
+        "1.7",
+        "--grace-ms",
+        "300",
+        "--delay-ms",
+        "250",
+        "--fault-start-ms",
+        "300",
+        "--fault-end-ms",
+        "1400",
+        "--forge-start-ms",
+        "1000",
+        "--forge-end-ms",
+        "1400",
+        "--drop-times-ms",
+        "400,600,1100,1300",
+        "--max-wall-seconds",
+        "180"
+      ],
+      "return_code": 0,
+      "folder": "/home/ubuntu/ns-O-RAN-flexric/mmwave-LENA-oran/test_open/ran_faults_af_ahjr0",
+      "audit": {
+        "audit_status": "PASS",
+        "decision_rows": 363,
+        "delivered_packets_all_cases": 121,
+        "reference_frames": 170,
+        "receipt_rounding_tolerance_seconds": 2e-06,
+        "false_alarm_examples_for_count_rule": [
+          {
+            "case": "delayed",
+            "report_id": 3,
+            "cell_id": 1,
+            "generation_us": 300000,
+            "decision_clock_us": 550000,
+            "reported_imsis": [
+              1
+            ],
+            "latest_reference_imsis": [
+              1,
+              2
+            ]
+          },
+          {
+            "case": "forged_faults",
+            "report_id": 3,
+            "cell_id": 1,
+            "generation_us": 300000,
+            "decision_clock_us": 550000,
+            "reported_imsis": [
+              1
+            ],
+            "latest_reference_imsis": [
+              1,
+              2
+            ]
+          },
+          {
+            "case": "delayed",
+            "report_id": 4,
+            "cell_id": 1,
+            "generation_us": 400000,
+            "decision_clock_us": 650000,
+            "reported_imsis": [
+              1
+            ],
+            "latest_reference_imsis": [
+              1,
+              2
+            ]
+          },
+          {
+            "case": "delayed",
+            "report_id": 5,
+            "cell_id": 1,
+            "generation_us": 500000,
+            "decision_clock_us": 750000,
+            "reported_imsis": [
+              1
+            ],
+            "latest_reference_imsis": [
+              1,
+              2
+            ]
+          },
+          {
+            "case": "forged_faults",
+            "report_id": 5,
+            "cell_id": 1,
+            "generation_us": 500000,
+            "decision_clock_us": 750000,
+            "reported_imsis": [
+              1
+            ],
+            "latest_reference_imsis": [
+              1,
+              2
+            ]
+          }
+        ],
+        "interpretation": "Post-run reconstruction with a per-decision causal cutoff; no verdicts changed."
+      },
+      "summary": {
+        "pipeline_status": "PASS",
+        "stop_reason": "process_exit",
+        "return_code": 0,
+        "wall_seconds": 28.007720408961177,
+        "error": null,
+        "data_issues": [],
+        "counts": {
+          "reference_frames_runner_running": 170,
+          "source_rows_runner_running": 38,
+          "source_reports_runner_running": 27
+        },
+        "reference_frames": 170,
+        "reference_cells": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "membership_changes_after_first_kpm": 2,
+        "count_changes_after_first_kpm": 2,
+        "context_transitions_after_first_kpm": [
+          {
+            "snapshot_us": 510000,
+            "cell_id": 1,
+            "old_count": 1,
+            "new_count": 2,
+            "old_members": [
+              1
+            ],
+            "new_members": [
+              1,
+              2
+            ]
+          },
+          {
+            "snapshot_us": 530000,
+            "cell_id": 4,
+            "old_count": 0,
+            "new_count": 1,
+            "old_members": [],
+            "new_members": [
+              2
+            ]
+          }
+        ],
+        "channel_stats": {
+          "normal": {
+            "source_packets": 27,
+            "source_forged": 0,
+            "dropped_packets": 0,
+            "dropped_forged": 0,
+            "delayed_packets": 0,
+            "delivered_live": 27,
+            "delivered_forged_live": 0,
+            "delivered_outside_live": 0
+          },
+          "missing": {
+            "source_packets": 27,
+            "source_forged": 0,
+            "dropped_packets": 7,
+            "dropped_forged": 0,
+            "delayed_packets": 0,
+            "delivered_live": 20,
+            "delivered_forged_live": 0,
+            "delivered_outside_live": 0
+          },
+          "delayed": {
+            "source_packets": 27,
+            "source_forged": 0,
+            "dropped_packets": 0,
+            "dropped_forged": 0,
+            "delayed_packets": 19,
+            "delivered_live": 27,
+            "delivered_forged_live": 0,
+            "delivered_outside_live": 0
+          },
+          "forged": {
+            "source_packets": 27,
+            "source_forged": 8,
+            "dropped_packets": 0,
+            "dropped_forged": 0,
+            "delayed_packets": 0,
+            "delivered_live": 27,
+            "delivered_forged_live": 8,
+            "delivered_outside_live": 0
+          },
+          "forged_faults": {
+            "source_packets": 27,
+            "source_forged": 8,
+            "dropped_packets": 7,
+            "dropped_forged": 4,
+            "delayed_packets": 12,
+            "delivered_live": 20,
+            "delivered_forged_live": 4,
+            "delivered_outside_live": 0
+          }
+        },
+        "metrics_live_only": {
+          "normal": {
+            "ue_count": {
+              "live_total": 27,
+              "live_benign": 27,
+              "live_attack": 0,
+              "TP": 0,
+              "FP": 0,
+              "TN": 27,
+              "FN": 0,
+              "indeterminate_benign": 0,
+              "indeterminate_attack": 0,
+              "outside_live": 0
+            },
+            "ue_membership": {
+              "live_total": 27,
+              "live_benign": 27,
+              "live_attack": 0,
+              "TP": 0,
+              "FP": 0,
+              "TN": 27,
+              "FN": 0,
+              "indeterminate_benign": 0,
+              "indeterminate_attack": 0,
+              "outside_live": 0
+            },
+            "time_aware": {
+              "live_total": 27,
+              "live_benign": 27,
+              "live_attack": 0,
+              "TP": 0,
+              "FP": 0,
+              "TN": 27,
+              "FN": 0,
+              "indeterminate_benign": 0,
+              "indeterminate_attack": 0,
+              "outside_live": 0
+            }
+          },
+          "missing": {
+            "ue_count": {
+              "live_total": 20,
+              "live_benign": 20,
+              "live_attack": 0,
+              "TP": 0,
+              "FP": 0,
+              "TN": 20,
+              "FN": 0,
+              "indeterminate_benign": 0,
+              "indeterminate_attack": 0,
+              "outside_live": 0
+            },
+            "ue_membership": {
+              "live_total": 20,
+              "live_benign": 20,
+              "live_attack": 0,
+              "TP": 0,
+              "FP": 0,
+              "TN": 20,
+              "FN": 0,
+              "indeterminate_benign": 0,
+              "indeterminate_attack": 0,
+              "outside_live": 0
+            },
+            "time_aware": {
+              "live_total": 20,
+              "live_benign": 20,
+              "live_attack": 0,
+              "TP": 0,
+              "FP": 0,
+              "TN": 20,
+              "FN": 0,
+              "indeterminate_benign": 0,
+              "indeterminate_attack": 0,
+              "outside_live": 0
+            }
+          },
+          "delayed": {
+            "ue_count": {
+              "live_total": 27,
+              "live_benign": 27,
+              "live_attack": 0,
+              "TP": 0,
+              "FP": 3,
+              "TN": 24,
+              "FN": 0,
+              "indeterminate_benign": 0,
+              "indeterminate_attack": 0,
+              "outside_live": 0
+            },
+            "ue_membership": {
+              "live_total": 27,
+              "live_benign": 27,
+              "live_attack": 0,
+              "TP": 0,
+              "FP": 3,
+              "TN": 24,
+              "FN": 0,
+              "indeterminate_benign": 0,
+              "indeterminate_attack": 0,
+              "outside_live": 0
+            },
+            "time_aware": {
+              "live_total": 27,
+              "live_benign": 27,
+              "live_attack": 0,
+              "TP": 0,
+              "FP": 0,
+              "TN": 27,
+              "FN": 0,
+              "indeterminate_benign": 0,
+              "indeterminate_attack": 0,
+              "outside_live": 0
+            }
+          },
+          "forged": {
+            "ue_count": {
+              "live_total": 27,
+              "live_benign": 19,
+              "live_attack": 8,
+              "TP": 8,
+              "FP": 0,
+              "TN": 19,
+              "FN": 0,
+              "indeterminate_benign": 0,
+              "indeterminate_attack": 0,
+              "outside_live": 0
+            },
+            "ue_membership": {
+              "live_total": 27,
+              "live_benign": 19,
+              "live_attack": 8,
+              "TP": 8,
+              "FP": 0,
+              "TN": 19,
+              "FN": 0,
+              "indeterminate_benign": 0,
+              "indeterminate_attack": 0,
+              "outside_live": 0
+            },
+            "time_aware": {
+              "live_total": 27,
+              "live_benign": 19,
+              "live_attack": 8,
+              "TP": 8,
+              "FP": 0,
+              "TN": 19,
+              "FN": 0,
+              "indeterminate_benign": 0,
+              "indeterminate_attack": 0,
+              "outside_live": 0
+            }
+          },
+          "forged_faults": {
+            "ue_count": {
+              "live_total": 20,
+              "live_benign": 16,
+              "live_attack": 4,
+              "TP": 4,
+              "FP": 2,
+              "TN": 14,
+              "FN": 0,
+              "indeterminate_benign": 0,
+              "indeterminate_attack": 0,
+              "outside_live": 0
+            },
+            "ue_membership": {
+              "live_total": 20,
+              "live_benign": 16,
+              "live_attack": 4,
+              "TP": 4,
+              "FP": 2,
+              "TN": 14,
+              "FN": 0,
+              "indeterminate_benign": 0,
+              "indeterminate_attack": 0,
+              "outside_live": 0
+            },
+            "time_aware": {
+              "live_total": 20,
+              "live_benign": 16,
+              "live_attack": 4,
+              "TP": 4,
+              "FP": 0,
+              "TN": 16,
+              "FN": 0,
+              "indeterminate_benign": 0,
+              "indeterminate_attack": 0,
+              "outside_live": 0
+            }
+          }
+        },
+        "rates": {
+          "normal": {
+            "ue_count": {
+              "false_alarm_fraction_of_delivered_benign": 0.0,
+              "detection_fraction_of_delivered_forged": null,
+              "detection_fraction_of_all_injected_forged": null
+            },
+            "ue_membership": {
+              "false_alarm_fraction_of_delivered_benign": 0.0,
+              "detection_fraction_of_delivered_forged": null,
+              "detection_fraction_of_all_injected_forged": null
+            },
+            "time_aware": {
+              "false_alarm_fraction_of_delivered_benign": 0.0,
+              "detection_fraction_of_delivered_forged": null,
+              "detection_fraction_of_all_injected_forged": null
+            }
+          },
+          "missing": {
+            "ue_count": {
+              "false_alarm_fraction_of_delivered_benign": 0.0,
+              "detection_fraction_of_delivered_forged": null,
+              "detection_fraction_of_all_injected_forged": null
+            },
+            "ue_membership": {
+              "false_alarm_fraction_of_delivered_benign": 0.0,
+              "detection_fraction_of_delivered_forged": null,
+              "detection_fraction_of_all_injected_forged": null
+            },
+            "time_aware": {
+              "false_alarm_fraction_of_delivered_benign": 0.0,
+              "detection_fraction_of_delivered_forged": null,
+              "detection_fraction_of_all_injected_forged": null
+            }
+          },
+          "delayed": {
+            "ue_count": {
+              "false_alarm_fraction_of_delivered_benign": 0.1111111111111111,
+              "detection_fraction_of_delivered_forged": null,
+              "detection_fraction_of_all_injected_forged": null
+            },
+            "ue_membership": {
+              "false_alarm_fraction_of_delivered_benign": 0.1111111111111111,
+              "detection_fraction_of_delivered_forged": null,
+              "detection_fraction_of_all_injected_forged": null
+            },
+            "time_aware": {
+              "false_alarm_fraction_of_delivered_benign": 0.0,
+              "detection_fraction_of_delivered_forged": null,
+              "detection_fraction_of_all_injected_forged": null
+            }
+          },
+          "forged": {
+            "ue_count": {
+              "false_alarm_fraction_of_delivered_benign": 0.0,
+              "detection_fraction_of_delivered_forged": 1.0,
+              "detection_fraction_of_all_injected_forged": 1.0
+            },
+            "ue_membership": {
+              "false_alarm_fraction_of_delivered_benign": 0.0,
+              "detection_fraction_of_delivered_forged": 1.0,
+              "detection_fraction_of_all_injected_forged": 1.0
+            },
+            "time_aware": {
+              "false_alarm_fraction_of_delivered_benign": 0.0,
+              "detection_fraction_of_delivered_forged": 1.0,
+              "detection_fraction_of_all_injected_forged": 1.0
+            }
+          },
+          "forged_faults": {
+            "ue_count": {
+              "false_alarm_fraction_of_delivered_benign": 0.125,
+              "detection_fraction_of_delivered_forged": 1.0,
+              "detection_fraction_of_all_injected_forged": 0.5
+            },
+            "ue_membership": {
+              "false_alarm_fraction_of_delivered_benign": 0.125,
+              "detection_fraction_of_delivered_forged": 1.0,
+              "detection_fraction_of_all_injected_forged": 0.5
+            },
+            "time_aware": {
+              "false_alarm_fraction_of_delivered_benign": 0.0,
+              "detection_fraction_of_delivered_forged": 1.0,
+              "detection_fraction_of_all_injected_forged": 0.5
+            }
+          }
+        },
+        "queued_at_exit": [],
+        "interpretation": "Single paired live fault-channel run; offsets are not exact detection delay."
+      },
+      "transition": {
+        "transition_status": "PASS",
+        "planned_late_attach_us": 500000,
+        "known_ue_ids_before_attach": [
+          1
+        ],
+        "known_ue_ids_at_or_after_attach": [
+          1,
+          2
+        ],
+        "ue2_connection_events": [
+          {
+            "sim_time_us": "506714",
+            "event": "CONNECTION_ESTABLISHED",
+            "imsi": "2",
+            "cell_id": "1",
+            "rnti": "2",
+            "target_cell_id": "0",
+            "rrc_path": "/NodeList/6/DeviceList/0/LteEnbRrc/"
+          },
+          {
+            "sim_time_us": "524767",
+            "event": "CONNECTION_ESTABLISHED",
+            "imsi": "2",
+            "cell_id": "4",
+            "rnti": "1",
+            "target_cell_id": "0",
+            "rrc_path": "/NodeList/5/DeviceList/0/LteEnbRrc/"
+          }
+        ],
+        "late_ue_imsi_values": [
+          2
+        ],
+        "reference_clock_tick_us": 10000,
+        "first_alarm_delay_on_observed_reference_clock": {
+          "forged": {
+            "ue_count": {
+              "episode_start_observed_us": 1000000,
+              "first_alarm_observed_us": 1000000,
+              "delay_ms": 0.0
+            },
+            "ue_membership": {
+              "episode_start_observed_us": 1000000,
+              "first_alarm_observed_us": 1000000,
+              "delay_ms": 0.0
+            },
+            "time_aware": {
+              "episode_start_observed_us": 1000000,
+              "first_alarm_observed_us": 1000000,
+              "delay_ms": 0.0
+            }
+          },
+          "forged_faults": {
+            "ue_count": {
+              "episode_start_observed_us": 1000000,
+              "first_alarm_observed_us": 1250000,
+              "delay_ms": 250.0
+            },
+            "ue_membership": {
+              "episode_start_observed_us": 1000000,
+              "first_alarm_observed_us": 1250000,
+              "delay_ms": 250.0
+            },
+            "time_aware": {
+              "episode_start_observed_us": 1000000,
+              "first_alarm_observed_us": 1250000,
+              "delay_ms": 250.0
+            }
+          }
+        },
+        "delay_is_exact_simulator_or_e2_latency": false,
+        "control": {
+          "late_attach_ms": 500,
+          "ues": 2,
+          "sim_seconds": 1.7,
+          "delay_ms": 250,
+          "grace_ms": 300,
+          "fault_window_ms": [
+            300,
+            1400
+          ],
+          "forgery_window_ms": [
+            1000,
+            1400
+          ],
+          "drop_times_ms": [
+            400,
+            600,
+            1100,
+            1300
+          ],
+          "rng_run": 6205,
+          "source_sha256": {
+            "scratch/scenario-online-security.cc": "bb5b1e6a408e4df5d525d51aa3ffb35fcc1e90f5c2c8bfd711837fb704104962",
+            "src/mmwave/helper/mmwave-helper.cc": "d925479c8a4be7c44bd974e181f71c0607e3be48d9374fd1fe20a788c74f7b1a"
+          },
+          "command": [
+            "/usr/bin/python3",
+            "/home/ubuntu/ns-O-RAN-flexric/mmwave-LENA-oran/test_open/ran_repeat_3qjjdg5q/scripts/ran_live_faults.py",
+            "--repo",
+            "/home/ubuntu/ns-O-RAN-flexric/mmwave-LENA-oran",
+            "--ues",
+            "2",
+            "--seed",
+            "6205",
+            "--sim-seconds",
+            "1.7",
+            "--grace-ms",
+            "300",
+            "--delay-ms",
+            "250",
+            "--fault-start-ms",
+            "300",
+            "--fault-end-ms",
+            "1400",
+            "--forge-start-ms",
+            "1000",
+            "--forge-end-ms",
+            "1400",
+            "--drop-times-ms",
+            "400,600,1100,1300",
+            "--max-wall-seconds",
+            "180"
+          ],
+          "batch_folder": "/home/ubuntu/ns-O-RAN-flexric/mmwave-LENA-oran/test_open/ran_repeat_3qjjdg5q",
+          "attach_mode": "V2 PHY startup / delayed native NAS Connect"
+        },
+        "interpretation": "PHY registered at startup; native NAS Connect delayed for UE index 1. RRC events validate the genuine join; benign delays span it; attacks follow warm-up."
+      }
+    },
+    {
+      "rng_run": 6206,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/python3",
+        "/home/ubuntu/ns-O-RAN-flexric/mmwave-LENA-oran/test_open/ran_repeat_3qjjdg5q/scripts/ran_live_faults.py",
+        "--repo",
+        "/home/ubuntu/ns-O-RAN-flexric/mmwave-LENA-oran",
+        "--ues",
+        "2",
+        "--seed",
+        "6206",
+        "--sim-seconds",
+        "1.7",
+        "--grace-ms",
+        "300",
+        "--delay-ms",
+        "250",
+        "--fault-start-ms",
+        "300",
+        "--fault-end-ms",
+        "1400",
+        "--forge-start-ms",
+        "1000",
+        "--forge-end-ms",
+        "1400",
+        "--drop-times-ms",
+        "400,600,1100,1300",
+        "--max-wall-seconds",
+        "180"
+      ],
+      "return_code": 0,
+      "folder": "/home/ubuntu/ns-O-RAN-flexric/mmwave-LENA-oran/test_open/ran_faults_uk821upi",
+      "audit": {
+        "audit_status": "PASS",
+        "decision_rows": 579,
+        "delivered_packets_all_cases": 193,
+        "reference_frames": 170,
+        "receipt_rounding_tolerance_seconds": 2e-06,
+        "false_alarm_examples_for_count_rule": [
+          {
+            "case": "delayed",
+            "report_id": 6,
+            "cell_id": 1,
+            "generation_us": 300000,
+            "decision_clock_us": 550000,
+            "reported_imsis": [
+              1
+            ],
+            "latest_reference_imsis": [
+              1,
+              2
+            ]
+          },
+          {
+            "case": "forged_faults",
+            "report_id": 6,
+            "cell_id": 1,
+            "generation_us": 300000,
+            "decision_clock_us": 550000,
+            "reported_imsis": [
+              1
+            ],
+            "latest_reference_imsis": [
+              1,
+              2
+            ]
+          },
+          {
+            "case": "delayed",
+            "report_id": 7,
+            "cell_id": 1,
+            "generation_us": 400000,
+            "decision_clock_us": 650000,
+            "reported_imsis": [
+              1
+            ],
+            "latest_reference_imsis": [
+              1,
+              2
+            ]
+          },
+          {
+            "case": "delayed",
+            "report_id": 10,
+            "cell_id": 1,
+            "generation_us": 500000,
+            "decision_clock_us": 750000,
+            "reported_imsis": [
+              1
+            ],
+            "latest_reference_imsis": [
+              1,
+              2
+            ]
+          },
+          {
+            "case": "forged_faults",
+            "report_id": 10,
+            "cell_id": 1,
+            "generation_us": 500000,
+            "decision_clock_us": 750000,
+            "reported_imsis": [
+              1
+            ],
+            "latest_reference_imsis": [
+              1,
+              2
+            ]
+          }
+        ],
+        "interpretation": "Post-run reconstruction with a per-decision causal cutoff; no verdicts changed."
+      },
+      "summary": {
+        "pipeline_status": "PASS",
+        "stop_reason": "process_exit",
+        "return_code": 0,
+        "wall_seconds": 28.99077626504004,
+        "error": null,
+        "data_issues": [],
+        "counts": {
+          "reference_frames_runner_running": 170,
+          "source_rows_runner_running": 54,
+          "source_reports_runner_running": 43
+        },
+        "reference_frames": 170,
+        "reference_cells": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "membership_changes_after_first_kpm": 2,
+        "count_changes_after_first_kpm": 2,
+        "context_transitions_after_first_kpm": [
+          {
+            "snapshot_us": 510000,
+            "cell_id": 1,
+            "old_count": 1,
+            "new_count": 2,
+            "old_members": [
+              1
+            ],
+            "new_members": [
+              1,
+              2
+            ]
+          },
+          {
+            "snapshot_us": 530000,
+            "cell_id": 3,
+            "old_count": 0,
+            "new_count": 1,
+            "old_members": [],
+            "new_members": [
+              2
+            ]
+          }
+        ],
+        "channel_stats": {
+          "normal": {
+            "source_packets": 43,
+            "source_forged": 0,
+            "dropped_packets": 0,
+            "dropped_forged": 0,
+            "delayed_packets": 0,
+            "delivered_live": 43,
+            "delivered_forged_live": 0,
+            "delivered_outside_live": 0
+          },
+          "missing": {
+            "source_packets": 43,
+            "source_forged": 0,
+            "dropped_packets": 11,
+            "dropped_forged": 0,
+            "delayed_packets": 0,
+            "delivered_live": 32,
+            "delivered_forged_live": 0,
+            "delivered_outside_live": 0
+          },
+          "delayed": {
+            "source_packets": 43,
+            "source_forged": 0,
+            "dropped_packets": 0,
+            "dropped_forged": 0,
+            "delayed_packets": 30,
+            "delivered_live": 43,
+            "delivered_forged_live": 0,
+            "delivered_outside_live": 0
+          },
+          "forged": {
+            "source_packets": 43,
+            "source_forged": 12,
+            "dropped_packets": 0,
+            "dropped_forged": 0,
+            "delayed_packets": 0,
+            "delivered_live": 43,
+            "delivered_forged_live": 12,
+            "delivered_outside_live": 0
+          },
+          "forged_faults": {
+            "source_packets": 43,
+            "source_forged": 12,
+            "dropped_packets": 11,
+            "dropped_forged": 6,
+            "delayed_packets": 19,
+            "delivered_live": 32,
+            "delivered_forged_live": 6,
+            "delivered_outside_live": 0
+          }
+        },
+        "metrics_live_only": {
+          "normal": {
+            "ue_count": {
+              "live_total": 43,
+              "live_benign": 43,
+              "live_attack": 0,
+              "TP": 0,
+              "FP": 0,
+              "TN": 43,
+              "FN": 0,
+              "indeterminate_benign": 0,
+              "indeterminate_attack": 0,
+              "outside_live": 0
+            },
+            "ue_membership": {
+              "live_total": 43,
+              "live_benign": 43,
+              "live_attack": 0,
+              "TP": 0,
+              "FP": 0,
+              "TN": 43,
+              "FN": 0,
+              "indeterminate_benign": 0,
+              "indeterminate_attack": 0,
+              "outside_live": 0
+            },
+            "time_aware": {
+              "live_total": 43,
+              "live_benign": 43,
+              "live_attack": 0,
+              "TP": 0,
+              "FP": 0,
+              "TN": 43,
+              "FN": 0,
+              "indeterminate_benign": 0,
+              "indeterminate_attack": 0,
+              "outside_live": 0
+            }
+          },
+          "missing": {
+            "ue_count": {
+              "live_total": 32,
+              "live_benign": 32,
+              "live_attack": 0,
+              "TP": 0,
+              "FP": 0,
+              "TN": 32,
+              "FN": 0,
+              "indeterminate_benign": 0,
+              "indeterminate_attack": 0,
+              "outside_live": 0
+            },
+            "ue_membership": {
+              "live_total": 32,
+              "live_benign": 32,
+              "live_attack": 0,
+              "TP": 0,
+              "FP": 0,
+              "TN": 32,
+              "FN": 0,
+              "indeterminate_benign": 0,
+              "indeterminate_attack": 0,
+              "outside_live": 0
+            },
+            "time_aware": {
+              "live_total": 32,
+              "live_benign": 32,
+              "live_attack": 0,
+              "TP": 0,
+              "FP": 0,
+              "TN": 32,
+              "FN": 0,
+              "indeterminate_benign": 0,
+              "indeterminate_attack": 0,
+              "outside_live": 0
+            }
+          },
+          "delayed": {
+            "ue_count": {
+              "live_total": 43,
+              "live_benign": 43,
+              "live_attack": 0,
+              "TP": 0,
+              "FP": 3,
+              "TN": 40,
+              "FN": 0,
+              "indeterminate_benign": 0,
+              "indeterminate_attack": 0,
+              "outside_live": 0
+            },
+            "ue_membership": {
+              "live_total": 43,
+              "live_benign": 43,
+              "live_attack": 0,
+              "TP": 0,
+              "FP": 3,
+              "TN": 40,
+              "FN": 0,
+              "indeterminate_benign": 0,
+              "indeterminate_attack": 0,
+              "outside_live": 0
+            },
+            "time_aware": {
+              "live_total": 43,
+              "live_benign": 43,
+              "live_attack": 0,
+              "TP": 0,
+              "FP": 0,
+              "TN": 43,
+              "FN": 0,
+              "indeterminate_benign": 0,
+              "indeterminate_attack": 0,
+              "outside_live": 0
+            }
+          },
+          "forged": {
+            "ue_count": {
+              "live_total": 43,
+              "live_benign": 31,
+              "live_attack": 12,
+              "TP": 12,
+              "FP": 0,
+              "TN": 31,
+              "FN": 0,
+              "indeterminate_benign": 0,
+              "indeterminate_attack": 0,
+              "outside_live": 0
+            },
+            "ue_membership": {
+              "live_total": 43,
+              "live_benign": 31,
+              "live_attack": 12,
+              "TP": 12,
+              "FP": 0,
+              "TN": 31,
+              "FN": 0,
+              "indeterminate_benign": 0,
+              "indeterminate_attack": 0,
+              "outside_live": 0
+            },
+            "time_aware": {
+              "live_total": 43,
+              "live_benign": 31,
+              "live_attack": 12,
+              "TP": 12,
+              "FP": 0,
+              "TN": 31,
+              "FN": 0,
+              "indeterminate_benign": 0,
+              "indeterminate_attack": 0,
+              "outside_live": 0
+            }
+          },
+          "forged_faults": {
+            "ue_count": {
+              "live_total": 32,
+              "live_benign": 26,
+              "live_attack": 6,
+              "TP": 6,
+              "FP": 2,
+              "TN": 24,
+              "FN": 0,
+              "indeterminate_benign": 0,
+              "indeterminate_attack": 0,
+              "outside_live": 0
+            },
+            "ue_membership": {
+              "live_total": 32,
+              "live_benign": 26,
+              "live_attack": 6,
+              "TP": 6,
+              "FP": 2,
+              "TN": 24,
+              "FN": 0,
+              "indeterminate_benign": 0,
+              "indeterminate_attack": 0,
+              "outside_live": 0
+            },
+            "time_aware": {
+              "live_total": 32,
+              "live_benign": 26,
+              "live_attack": 6,
+              "TP": 6,
+              "FP": 0,
+              "TN": 26,
+              "FN": 0,
+              "indeterminate_benign": 0,
+              "indeterminate_attack": 0,
+              "outside_live": 0
+            }
+          }
+        },
+        "rates": {
+          "normal": {
+            "ue_count": {
+              "false_alarm_fraction_of_delivered_benign": 0.0,
+              "detection_fraction_of_delivered_forged": null,
+              "detection_fraction_of_all_injected_forged": null
+            },
+            "ue_membership": {
+              "false_alarm_fraction_of_delivered_benign": 0.0,
+              "detection_fraction_of_delivered_forged": null,
+              "detection_fraction_of_all_injected_forged": null
+            },
+            "time_aware": {
+              "false_alarm_fraction_of_delivered_benign": 0.0,
+              "detection_fraction_of_delivered_forged": null,
+              "detection_fraction_of_all_injected_forged": null
+            }
+          },
+          "missing": {
+            "ue_count": {
+              "false_alarm_fraction_of_delivered_benign": 0.0,
+              "detection_fraction_of_delivered_forged": null,
+              "detection_fraction_of_all_injected_forged": null
+            },
+            "ue_membership": {
+              "false_alarm_fraction_of_delivered_benign": 0.0,
+              "detection_fraction_of_delivered_forged": null,
+              "detection_fraction_of_all_injected_forged": null
+            },
+            "time_aware": {
+              "false_alarm_fraction_of_delivered_benign": 0.0,
+              "detection_fraction_of_delivered_forged": null,
+              "detection_fraction_of_all_injected_forged": null
+            }
+          },
+          "delayed": {
+            "ue_count": {
+              "false_alarm_fraction_of_delivered_benign": 0.06976744186046512,
+              "detection_fraction_of_delivered_forged": null,
+              "detection_fraction_of_all_injected_forged": null
+            },
+            "ue_membership": {
+              "false_alarm_fraction_of_delivered_benign": 0.06976744186046512,
+              "detection_fraction_of_delivered_forged": null,
+              "detection_fraction_of_all_injected_forged": null
+            },
+            "time_aware": {
+              "false_alarm_fraction_of_delivered_benign": 0.0,
+              "detection_fraction_of_delivered_forged": null,
+              "detection_fraction_of_all_injected_forged": null
+            }
+          },
+          "forged": {
+            "ue_count": {
+              "false_alarm_fraction_of_delivered_benign": 0.0,
+              "detection_fraction_of_delivered_forged": 1.0,
+              "detection_fraction_of_all_injected_forged": 1.0
+            },
+            "ue_membership": {
+              "false_alarm_fraction_of_delivered_benign": 0.0,
+              "detection_fraction_of_delivered_forged": 1.0,
+              "detection_fraction_of_all_injected_forged": 1.0
+            },
+            "time_aware": {
+              "false_alarm_fraction_of_delivered_benign": 0.0,
+              "detection_fraction_of_delivered_forged": 1.0,
+              "detection_fraction_of_all_injected_forged": 1.0
+            }
+          },
+          "forged_faults": {
+            "ue_count": {
+              "false_alarm_fraction_of_delivered_benign": 0.07692307692307693,
+              "detection_fraction_of_delivered_forged": 1.0,
+              "detection_fraction_of_all_injected_forged": 0.5
+            },
+            "ue_membership": {
+              "false_alarm_fraction_of_delivered_benign": 0.07692307692307693,
+              "detection_fraction_of_delivered_forged": 1.0,
+              "detection_fraction_of_all_injected_forged": 0.5
+            },
+            "time_aware": {
+              "false_alarm_fraction_of_delivered_benign": 0.0,
+              "detection_fraction_of_delivered_forged": 1.0,
+              "detection_fraction_of_all_injected_forged": 0.5
+            }
+          }
+        },
+        "queued_at_exit": [],
+        "interpretation": "Single paired live fault-channel run; offsets are not exact detection delay."
+      },
+      "transition": {
+        "transition_status": "PASS",
+        "planned_late_attach_us": 500000,
+        "known_ue_ids_before_attach": [
+          1
+        ],
+        "known_ue_ids_at_or_after_attach": [
+          1,
+          2
+        ],
+        "ue2_connection_events": [
+          {
+            "sim_time_us": "506714",
+            "event": "CONNECTION_ESTABLISHED",
+            "imsi": "2",
+            "cell_id": "1",
+            "rnti": "2",
+            "target_cell_id": "0",
+            "rrc_path": "/NodeList/6/DeviceList/0/LteEnbRrc/"
+          },
+          {
+            "sim_time_us": "524767",
+            "event": "CONNECTION_ESTABLISHED",
+            "imsi": "2",
+            "cell_id": "3",
+            "rnti": "1",
+            "target_cell_id": "0",
+            "rrc_path": "/NodeList/4/DeviceList/0/LteEnbRrc/"
+          }
+        ],
+        "late_ue_imsi_values": [
+          2
+        ],
+        "reference_clock_tick_us": 10000,
+        "first_alarm_delay_on_observed_reference_clock": {
+          "forged": {
+            "ue_count": {
+              "episode_start_observed_us": 1000000,
+              "first_alarm_observed_us": 1000000,
+              "delay_ms": 0.0
+            },
+            "ue_membership": {
+              "episode_start_observed_us": 1000000,
+              "first_alarm_observed_us": 1000000,
+              "delay_ms": 0.0
+            },
+            "time_aware": {
+              "episode_start_observed_us": 1000000,
+              "first_alarm_observed_us": 1000000,
+              "delay_ms": 0.0
+            }
+          },
+          "forged_faults": {
+            "ue_count": {
+              "episode_start_observed_us": 1000000,
+              "first_alarm_observed_us": 1250000,
+              "delay_ms": 250.0
+            },
+            "ue_membership": {
+              "episode_start_observed_us": 1000000,
+              "first_alarm_observed_us": 1250000,
+              "delay_ms": 250.0
+            },
+            "time_aware": {
+              "episode_start_observed_us": 1000000,
+              "first_alarm_observed_us": 1250000,
+              "delay_ms": 250.0
+            }
+          }
+        },
+        "delay_is_exact_simulator_or_e2_latency": false,
+        "control": {
+          "late_attach_ms": 500,
+          "ues": 2,
+          "sim_seconds": 1.7,
+          "delay_ms": 250,
+          "grace_ms": 300,
+          "fault_window_ms": [
+            300,
+            1400
+          ],
+          "forgery_window_ms": [
+            1000,
+            1400
+          ],
+          "drop_times_ms": [
+            400,
+            600,
+            1100,
+            1300
+          ],
+          "rng_run": 6206,
+          "source_sha256": {
+            "scratch/scenario-online-security.cc": "bb5b1e6a408e4df5d525d51aa3ffb35fcc1e90f5c2c8bfd711837fb704104962",
+            "src/mmwave/helper/mmwave-helper.cc": "d925479c8a4be7c44bd974e181f71c0607e3be48d9374fd1fe20a788c74f7b1a"
+          },
+          "command": [
+            "/usr/bin/python3",
+            "/home/ubuntu/ns-O-RAN-flexric/mmwave-LENA-oran/test_open/ran_repeat_3qjjdg5q/scripts/ran_live_faults.py",
+            "--repo",
+            "/home/ubuntu/ns-O-RAN-flexric/mmwave-LENA-oran",
+            "--ues",
+            "2",
+            "--seed",
+            "6206",
+            "--sim-seconds",
+            "1.7",
+            "--grace-ms",
+            "300",
+            "--delay-ms",
+            "250",
+            "--fault-start-ms",
+            "300",
+            "--fault-end-ms",
+            "1400",
+            "--forge-start-ms",
+            "1000",
+            "--forge-end-ms",
+            "1400",
+            "--drop-times-ms",
+            "400,600,1100,1300",
+            "--max-wall-seconds",
+            "180"
+          ],
+          "batch_folder": "/home/ubuntu/ns-O-RAN-flexric/mmwave-LENA-oran/test_open/ran_repeat_3qjjdg5q",
+          "attach_mode": "V2 PHY startup / delayed native NAS Connect"
+        },
+        "interpretation": "PHY registered at startup; native NAS Connect delayed for UE index 1. RRC events validate the genuine join; benign delays span it; attacks follow warm-up."
+      }
+    }
+  ],
+  "pilot_included_in_totals": false,
+  "source_sha256": {
+    "scratch/scenario-online-security.cc": "bb5b1e6a408e4df5d525d51aa3ffb35fcc1e90f5c2c8bfd711837fb704104962",
+    "src/mmwave/helper/mmwave-helper.cc": "d925479c8a4be7c44bd974e181f71c0607e3be48d9374fd1fe20a788c74f7b1a"
+  },
+  "script_sha256": {
+    "ran_live_faults.py": "f901706f8f7c7161613345d54ea004df36aabdba6a56247b93e154e4ea72ca53",
+    "install_ran_late_attach_v2.py": "c313819c5c9fbb6909073cd91c4241752b9c458eaeaf174bc5d3e0d7a90e0d60",
+    "ran_online_detector.py": "cc10000b14fc78236d6d4789d64f60290a09aa662121167bb14e95efa001285b",
+    "ran_repeat_trials.py": "b9e0f529c00aa8af0cf8f3227085423ce0a8ddb9e923ea9d6ec7584dcc86a69b"
+  },
+  "parameters": {
+    "late_attach_ms": 500,
+    "ues": 2,
+    "sim_seconds": 1.7,
+    "delay_ms": 250,
+    "grace_ms": 300,
+    "fault_window_ms": [
+      300,
+      1400
+    ],
+    "forgery_window_ms": [
+      1000,
+      1400
+    ],
+    "drop_times_ms": [
+      400,
+      600,
+      1100,
+      1300
+    ]
+  },
+  "source_clock": "simulator time aligned to received complete RRC snapshots",
+  "generation_metadata_and_labels_are_rule_inputs": false,
+  "scenario_binary_sha256": "1ed97a08db3e3d46eb0a5c8ba850190387c3a22d7daaee38df8d4117bf13eaad"
+}

@@ -1,0 +1,80 @@
+{
+  "audit_status": "PASS",
+  "decision_rows": 579,
+  "delivered_packets_all_cases": 193,
+  "reference_frames": 170,
+  "receipt_rounding_tolerance_seconds": 2e-06,
+  "false_alarm_examples_for_count_rule": [
+    {
+      "case": "delayed",
+      "report_id": 6,
+      "cell_id": 1,
+      "generation_us": 300000,
+      "decision_clock_us": 550000,
+      "reported_imsis": [
+        1
+      ],
+      "latest_reference_imsis": [
+        1,
+        2
+      ]
+    },
+    {
+      "case": "forged_faults",
+      "report_id": 6,
+      "cell_id": 1,
+      "generation_us": 300000,
+      "decision_clock_us": 550000,
+      "reported_imsis": [
+        1
+      ],
+      "latest_reference_imsis": [
+        1,
+        2
+      ]
+    },
+    {
+      "case": "delayed",
+      "report_id": 7,
+      "cell_id": 1,
+      "generation_us": 400000,
+      "decision_clock_us": 650000,
+      "reported_imsis": [
+        1
+      ],
+      "latest_reference_imsis": [
+        1,
+        2
+      ]
+    },
+    {
+      "case": "delayed",
+      "report_id": 10,
+      "cell_id": 1,
+      "generation_us": 500000,
+      "decision_clock_us": 750000,
+      "reported_imsis": [
+        1
+      ],
+      "latest_reference_imsis": [
+        1,
+        2
+      ]
+    },
+    {
+      "case": "forged_faults",
+      "report_id": 10,
+      "cell_id": 1,
+      "generation_us": 500000,
+      "decision_clock_us": 750000,
+      "reported_imsis": [
+        1
+      ],
+      "latest_reference_imsis": [
+        1,
+        2
+      ]
+    }
+  ],
+  "interpretation": "Post-run reconstruction with a per-decision causal cutoff; no verdicts changed."
+}

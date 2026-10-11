@@ -1,0 +1,9 @@
+sim_time_us,event,imsi,cell_id,rnti,target_cell_id,rrc_path
+21714,CONNECTION_ESTABLISHED,1,1,1,0,/NodeList/6/DeviceList/0/LteEnbRrc/
+44767,CONNECTION_ESTABLISHED,1,3,1,0,/NodeList/4/DeviceList/0/LteEnbRrc/
+51714,CONNECTION_RECONFIGURATION,1,1,1,0,/NodeList/6/DeviceList/0/LteEnbRrc/
+54714,CONNECTION_RECONFIGURATION,1,1,1,0,/NodeList/6/DeviceList/0/LteEnbRrc/
+506714,CONNECTION_ESTABLISHED,2,1,2,0,/NodeList/6/DeviceList/0/LteEnbRrc/
+524767,CONNECTION_ESTABLISHED,2,2,1,0,/NodeList/3/DeviceList/0/LteEnbRrc/
+536714,CONNECTION_RECONFIGURATION,2,1,2,0,/NodeList/6/DeviceList/0/LteEnbRrc/
+539714,CONNECTION_RECONFIGURATION,2,1,2,0,/NodeList/6/DeviceList/0/LteEnbRrc/

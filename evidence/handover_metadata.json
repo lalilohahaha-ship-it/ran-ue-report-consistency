@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "input_evidence_directory": "/home/ubuntu/ns-O-RAN-flexric/mmwave-LENA-oran/test_open/ran_evidence_t5os99h3",
+  "input_evidence_manifest_sha256": "c554f5fed8bbfe3f05423653b9f8e950c7cea23e05de004ab1e46cf6ec75b7e0",
+  "unique_simulation_runs": 40,
+  "repository_observed_at_handover": {
+    "recorded_utc": "2026-10-11T13:31:28.883162+00:00",
+    "git_head_at_handover": "0ae720c977ee3dac61e3d2fde7843cb482ba44f4",
+    "tracked_file_status_at_handover": "M \"GUI/FlexRIC xApp GUI trigger/xApp_trigger.py\"\n M contrib/oran-interface\n M scratch/orange-rf-channel-reconfiguration.cc\n M scratch/scenario-zero.cc\nA  scripts/attacks/generate_kpm_attacks.py\n M src/lte/model/lte-enb-net-device.h\n M src/lte/model/lte-enb-rrc.cc\n M src/lte/model/lte-enb-rrc.h\n M src/mmwave/helper/mmwave-helper.cc\n M src/mmwave/helper/mmwave-helper.h\n M src/mmwave/model/mmwave-enb-net-device.cc\n M src/mmwave/model/mmwave-enb-net-device.h",
+    "source_sha256": {
+      "scratch/scenario-online-security.cc": "bb5b1e6a408e4df5d525d51aa3ffb35fcc1e90f5c2c8bfd711837fb704104962",
+      "src/mmwave/helper/mmwave-helper.cc": "d925479c8a4be7c44bd974e181f71c0607e3be48d9374fd1fe20a788c74f7b1a"
+    },
+    "historical_experiment_git_commit_verified": false,
+    "interpretation": "Git state is observed at handover. Two native source files match their experiment snapshots; the full repository is not included."
+  },
+  "created_new_simulations": false,
+  "recorded_verdicts_changed": false
+}

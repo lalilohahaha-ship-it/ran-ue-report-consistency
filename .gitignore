@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
+Thumbs.db
+*.zip
+build/
+cmake-cache/
+test_open/
+.env
+.env.*

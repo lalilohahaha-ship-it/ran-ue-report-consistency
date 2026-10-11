@@ -1,0 +1,49 @@
+{
+  "repo": "/home/ubuntu/ns-O-RAN-flexric/mmwave-LENA-oran",
+  "sim_seconds": 2.0,
+  "seed": 6206,
+  "ues": 2,
+  "grace_ms": 500.0,
+  "delay_ms": 250.0,
+  "max_wall_seconds": 240.0,
+  "forge_imsi": 99999,
+  "forge_start_ms": 1000.0,
+  "forge_end_ms": 1400.0,
+  "fault_start_ms": 300.0,
+  "fault_end_ms": 1400.0,
+  "drop_times_ms": "400,600,1100,1300",
+  "drop_us": [
+    400000,
+    600000,
+    1100000,
+    1300000
+  ],
+  "command": [
+    "/home/ubuntu/ns-O-RAN-flexric/mmwave-LENA-oran/ns3",
+    "run",
+    "scenario-online-security --RngRun=6206 --ues=2 --speedMin=3 --speedMax=10 --simTime=2 --enableE2FileLogging=1 --SimulatorImplementationType=ns3::RealtimeSimulatorImpl",
+    "--no-build",
+    "--cwd=/home/ubuntu/ns-O-RAN-flexric/mmwave-LENA-oran/test_open/ran_faults_5x63ryez"
+  ],
+  "cases": [
+    "normal",
+    "missing",
+    "delayed",
+    "forged",
+    "forged_faults"
+  ],
+  "cases_share_one_simulation": true,
+  "scenario_sha256": "bb5b1e6a408e4df5d525d51aa3ffb35fcc1e90f5c2c8bfd711837fb704104962",
+  "rules_sha256": "cc10000b14fc78236d6d4789d64f60290a09aa662121167bb14e95efa001285b",
+  "harness_sha256": "f901706f8f7c7161613345d54ea004df36aabdba6a56247b93e154e4ea72ca53",
+  "collection": "live_simulator_csv_logs",
+  "attack_surface": "parsed_report_copy",
+  "protected_reference": "complete_per_cell_raw_rrc_context_snapshots",
+  "delay_clock": "latest_received_reference_watermark_at_interception",
+  "generation_metadata_unmodified": true,
+  "offsets_are_detection_latency": false,
+  "live_phase_definition": "ns3_command_running_at_source_reception_and_decision",
+  "dropped_reports_have_security_verdict": false,
+  "pipeline_pass_requires_zero_false_positives": false,
+  "all_injected_attack_denominator_includes_dropped_attacks": true
+}

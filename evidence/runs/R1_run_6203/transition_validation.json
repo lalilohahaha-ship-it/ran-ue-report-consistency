@@ -1,0 +1,129 @@
+{
+  "transition_status": "PASS",
+  "planned_late_attach_us": 500000,
+  "known_ue_ids_before_attach": [
+    1
+  ],
+  "known_ue_ids_at_or_after_attach": [
+    1,
+    2
+  ],
+  "ue2_connection_events": [
+    {
+      "sim_time_us": "506714",
+      "event": "CONNECTION_ESTABLISHED",
+      "imsi": "2",
+      "cell_id": "1",
+      "rnti": "2",
+      "target_cell_id": "0",
+      "rrc_path": "/NodeList/6/DeviceList/0/LteEnbRrc/"
+    },
+    {
+      "sim_time_us": "524767",
+      "event": "CONNECTION_ESTABLISHED",
+      "imsi": "2",
+      "cell_id": "2",
+      "rnti": "1",
+      "target_cell_id": "0",
+      "rrc_path": "/NodeList/3/DeviceList/0/LteEnbRrc/"
+    }
+  ],
+  "late_ue_imsi_values": [
+    2
+  ],
+  "reference_clock_tick_us": 10000,
+  "first_alarm_delay_on_observed_reference_clock": {
+    "forged": {
+      "ue_count": {
+        "episode_start_observed_us": 1000000,
+        "first_alarm_observed_us": 1000000,
+        "delay_ms": 0.0
+      },
+      "ue_membership": {
+        "episode_start_observed_us": 1000000,
+        "first_alarm_observed_us": 1000000,
+        "delay_ms": 0.0
+      },
+      "time_aware": {
+        "episode_start_observed_us": 1000000,
+        "first_alarm_observed_us": 1000000,
+        "delay_ms": 0.0
+      }
+    },
+    "forged_faults": {
+      "ue_count": {
+        "episode_start_observed_us": 1000000,
+        "first_alarm_observed_us": 1250000,
+        "delay_ms": 250.0
+      },
+      "ue_membership": {
+        "episode_start_observed_us": 1000000,
+        "first_alarm_observed_us": 1250000,
+        "delay_ms": 250.0
+      },
+      "time_aware": {
+        "episode_start_observed_us": 1000000,
+        "first_alarm_observed_us": 1250000,
+        "delay_ms": 250.0
+      }
+    }
+  },
+  "delay_is_exact_simulator_or_e2_latency": false,
+  "control": {
+    "late_attach_ms": 500,
+    "ues": 2,
+    "sim_seconds": 1.7,
+    "delay_ms": 250,
+    "grace_ms": 300,
+    "fault_window_ms": [
+      300,
+      1400
+    ],
+    "forgery_window_ms": [
+      1000,
+      1400
+    ],
+    "drop_times_ms": [
+      400,
+      600,
+      1100,
+      1300
+    ],
+    "rng_run": 6203,
+    "source_sha256": {
+      "scratch/scenario-online-security.cc": "bb5b1e6a408e4df5d525d51aa3ffb35fcc1e90f5c2c8bfd711837fb704104962",
+      "src/mmwave/helper/mmwave-helper.cc": "d925479c8a4be7c44bd974e181f71c0607e3be48d9374fd1fe20a788c74f7b1a"
+    },
+    "command": [
+      "/usr/bin/python3",
+      "/home/ubuntu/ns-O-RAN-flexric/mmwave-LENA-oran/test_open/ran_repeat_3qjjdg5q/scripts/ran_live_faults.py",
+      "--repo",
+      "/home/ubuntu/ns-O-RAN-flexric/mmwave-LENA-oran",
+      "--ues",
+      "2",
+      "--seed",
+      "6203",
+      "--sim-seconds",
+      "1.7",
+      "--grace-ms",
+      "300",
+      "--delay-ms",
+      "250",
+      "--fault-start-ms",
+      "300",
+      "--fault-end-ms",
+      "1400",
+      "--forge-start-ms",
+      "1000",
+      "--forge-end-ms",
+      "1400",
+      "--drop-times-ms",
+      "400,600,1100,1300",
+      "--max-wall-seconds",
+      "180"
+    ],
+    "batch_folder": "/home/ubuntu/ns-O-RAN-flexric/mmwave-LENA-oran/test_open/ran_repeat_3qjjdg5q",
+    "attach_mode": "V2 PHY startup / delayed native NAS Connect"
+  },
+  "interpretation": "PHY registered at startup; native NAS Connect delayed for UE index 1. RRC events validate the genuine join; benign delays span it; attacks follow warm-up."
+}

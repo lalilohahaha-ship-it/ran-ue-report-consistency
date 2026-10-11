@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "recommended_visibility": "private",
+  "unique_simulation_runs": 40,
+  "derived_files": {
+    "scripts/ran_live_faults.py": "evidence/scripts/ran_live_faults.py",
+    "scripts/install_ran_late_attach_v2.py": "evidence/scripts/install_ran_late_attach_v2.py",
+    "scripts/ran_online_detector.py": "evidence/scripts/ran_online_detector.py",
+    "scripts/ran_repeat_trials.py": "evidence/scripts/ran_repeat_trials.py",
+    "scripts/ran_join_attack_trials.py": "evidence/scripts/ran_join_attack_trials.py",
+    "scripts/ran_window_sweep.py": "evidence/scripts/ran_window_sweep.py",
+    "simulator/scratch/scenario-online-security.cc": "evidence/source_snapshot/scratch/scenario-online-security.cc",
+    "simulator/src/mmwave/helper/mmwave-helper.cc": "evidence/source_snapshot/src/mmwave/helper/mmwave-helper.cc"
+  },
+  "evidence_manifest_sha256": "ef8658993cb477752f40bec0db6c7d7e8d65b8f7e986c66eb965d24859ca3c07",
+  "preparer_sha256": "6d3ed19b074692a7da16cc85df24ec31da427ff0e0739341170aeeeeb586e32b",
+  "simulation_started": false,
+  "github_upload_performed": false,
+  "live_verdicts_changed": false
+}

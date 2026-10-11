@@ -1,0 +1,58 @@
+{
+  "sim_seconds": 2.0,
+  "ues": 2,
+  "late_attach_ms": 500,
+  "fault_window_ms": [
+    300,
+    1400
+  ],
+  "forgery_window_ms": [
+    300,
+    700
+  ],
+  "drop_times_ms": [
+    400,
+    600,
+    1100,
+    1300
+  ],
+  "id": "J1",
+  "delay_ms": 250,
+  "grace_ms": 300,
+  "comparison_id": "C1",
+  "rng_run": 6204,
+  "command": [
+    "/usr/bin/python3",
+    "/home/ubuntu/ns-O-RAN-flexric/mmwave-LENA-oran/test_open/ran_join_attacks_pjf7h8ln/scripts/ran_live_faults.py",
+    "--repo",
+    "/home/ubuntu/ns-O-RAN-flexric/mmwave-LENA-oran",
+    "--ues",
+    "2",
+    "--seed",
+    "6204",
+    "--sim-seconds",
+    "2.0",
+    "--delay-ms",
+    "250",
+    "--grace-ms",
+    "300",
+    "--fault-start-ms",
+    "300",
+    "--fault-end-ms",
+    "1400",
+    "--forge-start-ms",
+    "300",
+    "--forge-end-ms",
+    "700",
+    "--drop-times-ms",
+    "400,600,1100,1300",
+    "--max-wall-seconds",
+    "240"
+  ],
+  "source_sha256": {
+    "scratch/scenario-online-security.cc": "bb5b1e6a408e4df5d525d51aa3ffb35fcc1e90f5c2c8bfd711837fb704104962",
+    "src/mmwave/helper/mmwave-helper.cc": "d925479c8a4be7c44bd974e181f71c0607e3be48d9374fd1fe20a788c74f7b1a"
+  },
+  "batch_folder": "/home/ubuntu/ns-O-RAN-flexric/mmwave-LENA-oran/test_open/ran_join_attacks_pjf7h8ln",
+  "attach_mode": "V2 PHY startup / native NAS Connect at 500 ms"
+}

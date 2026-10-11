@@ -1,0 +1,5847 @@
+{
+  "runs/R1_run_6202": {
+    "count_accepted_forged_packets": [],
+    "benign_mismatches_tolerated_by_history": [
+      {
+        "condition": "R1",
+        "rng_run": 6202,
+        "case": "delayed",
+        "report_id": 6,
+        "cell_id": 1,
+        "generation_us": 300000,
+        "decision_clock_us": 550000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      },
+      {
+        "condition": "R1",
+        "rng_run": 6202,
+        "case": "forged_faults",
+        "report_id": 6,
+        "cell_id": 1,
+        "generation_us": 300000,
+        "decision_clock_us": 550000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      },
+      {
+        "condition": "R1",
+        "rng_run": 6202,
+        "case": "delayed",
+        "report_id": 7,
+        "cell_id": 1,
+        "generation_us": 400000,
+        "decision_clock_us": 650000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      },
+      {
+        "condition": "R1",
+        "rng_run": 6202,
+        "case": "delayed",
+        "report_id": 9,
+        "cell_id": 1,
+        "generation_us": 500000,
+        "decision_clock_us": 750000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      },
+      {
+        "condition": "R1",
+        "rng_run": 6202,
+        "case": "forged_faults",
+        "report_id": 9,
+        "cell_id": 1,
+        "generation_us": 500000,
+        "decision_clock_us": 750000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      }
+    ]
+  },
+  "runs/R1_run_6203": {
+    "count_accepted_forged_packets": [],
+    "benign_mismatches_tolerated_by_history": [
+      {
+        "condition": "R1",
+        "rng_run": 6203,
+        "case": "delayed",
+        "report_id": 6,
+        "cell_id": 1,
+        "generation_us": 300000,
+        "decision_clock_us": 550000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      },
+      {
+        "condition": "R1",
+        "rng_run": 6203,
+        "case": "forged_faults",
+        "report_id": 6,
+        "cell_id": 1,
+        "generation_us": 300000,
+        "decision_clock_us": 550000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      },
+      {
+        "condition": "R1",
+        "rng_run": 6203,
+        "case": "delayed",
+        "report_id": 8,
+        "cell_id": 1,
+        "generation_us": 400000,
+        "decision_clock_us": 650000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      },
+      {
+        "condition": "R1",
+        "rng_run": 6203,
+        "case": "delayed",
+        "report_id": 9,
+        "cell_id": 1,
+        "generation_us": 500000,
+        "decision_clock_us": 750000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      },
+      {
+        "condition": "R1",
+        "rng_run": 6203,
+        "case": "forged_faults",
+        "report_id": 9,
+        "cell_id": 1,
+        "generation_us": 500000,
+        "decision_clock_us": 750000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      }
+    ]
+  },
+  "runs/R1_run_6204": {
+    "count_accepted_forged_packets": [],
+    "benign_mismatches_tolerated_by_history": [
+      {
+        "condition": "R1",
+        "rng_run": 6204,
+        "case": "delayed",
+        "report_id": 3,
+        "cell_id": 1,
+        "generation_us": 300000,
+        "decision_clock_us": 550000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      },
+      {
+        "condition": "R1",
+        "rng_run": 6204,
+        "case": "forged_faults",
+        "report_id": 3,
+        "cell_id": 1,
+        "generation_us": 300000,
+        "decision_clock_us": 550000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      },
+      {
+        "condition": "R1",
+        "rng_run": 6204,
+        "case": "delayed",
+        "report_id": 4,
+        "cell_id": 1,
+        "generation_us": 400000,
+        "decision_clock_us": 650000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      },
+      {
+        "condition": "R1",
+        "rng_run": 6204,
+        "case": "delayed",
+        "report_id": 5,
+        "cell_id": 1,
+        "generation_us": 500000,
+        "decision_clock_us": 750000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      },
+      {
+        "condition": "R1",
+        "rng_run": 6204,
+        "case": "forged_faults",
+        "report_id": 5,
+        "cell_id": 1,
+        "generation_us": 500000,
+        "decision_clock_us": 750000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      }
+    ]
+  },
+  "runs/R1_run_6205": {
+    "count_accepted_forged_packets": [],
+    "benign_mismatches_tolerated_by_history": [
+      {
+        "condition": "R1",
+        "rng_run": 6205,
+        "case": "delayed",
+        "report_id": 3,
+        "cell_id": 1,
+        "generation_us": 300000,
+        "decision_clock_us": 550000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      },
+      {
+        "condition": "R1",
+        "rng_run": 6205,
+        "case": "forged_faults",
+        "report_id": 3,
+        "cell_id": 1,
+        "generation_us": 300000,
+        "decision_clock_us": 550000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      },
+      {
+        "condition": "R1",
+        "rng_run": 6205,
+        "case": "delayed",
+        "report_id": 4,
+        "cell_id": 1,
+        "generation_us": 400000,
+        "decision_clock_us": 650000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      },
+      {
+        "condition": "R1",
+        "rng_run": 6205,
+        "case": "delayed",
+        "report_id": 5,
+        "cell_id": 1,
+        "generation_us": 500000,
+        "decision_clock_us": 750000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      },
+      {
+        "condition": "R1",
+        "rng_run": 6205,
+        "case": "forged_faults",
+        "report_id": 5,
+        "cell_id": 1,
+        "generation_us": 500000,
+        "decision_clock_us": 750000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      }
+    ]
+  },
+  "runs/R1_run_6206": {
+    "count_accepted_forged_packets": [],
+    "benign_mismatches_tolerated_by_history": [
+      {
+        "condition": "R1",
+        "rng_run": 6206,
+        "case": "delayed",
+        "report_id": 6,
+        "cell_id": 1,
+        "generation_us": 300000,
+        "decision_clock_us": 550000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      },
+      {
+        "condition": "R1",
+        "rng_run": 6206,
+        "case": "forged_faults",
+        "report_id": 6,
+        "cell_id": 1,
+        "generation_us": 300000,
+        "decision_clock_us": 550000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      },
+      {
+        "condition": "R1",
+        "rng_run": 6206,
+        "case": "delayed",
+        "report_id": 7,
+        "cell_id": 1,
+        "generation_us": 400000,
+        "decision_clock_us": 650000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      },
+      {
+        "condition": "R1",
+        "rng_run": 6206,
+        "case": "delayed",
+        "report_id": 10,
+        "cell_id": 1,
+        "generation_us": 500000,
+        "decision_clock_us": 750000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      },
+      {
+        "condition": "R1",
+        "rng_run": 6206,
+        "case": "forged_faults",
+        "report_id": 10,
+        "cell_id": 1,
+        "generation_us": 500000,
+        "decision_clock_us": 750000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      }
+    ]
+  },
+  "runs/C1_run_6202": {
+    "count_accepted_forged_packets": [],
+    "benign_mismatches_tolerated_by_history": [
+      {
+        "condition": "C1",
+        "rng_run": 6202,
+        "case": "delayed",
+        "report_id": 6,
+        "cell_id": 1,
+        "generation_us": 300000,
+        "decision_clock_us": 550000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      },
+      {
+        "condition": "C1",
+        "rng_run": 6202,
+        "case": "forged_faults",
+        "report_id": 6,
+        "cell_id": 1,
+        "generation_us": 300000,
+        "decision_clock_us": 550000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      },
+      {
+        "condition": "C1",
+        "rng_run": 6202,
+        "case": "delayed",
+        "report_id": 7,
+        "cell_id": 1,
+        "generation_us": 400000,
+        "decision_clock_us": 650000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      },
+      {
+        "condition": "C1",
+        "rng_run": 6202,
+        "case": "delayed",
+        "report_id": 9,
+        "cell_id": 1,
+        "generation_us": 500000,
+        "decision_clock_us": 750000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      },
+      {
+        "condition": "C1",
+        "rng_run": 6202,
+        "case": "forged_faults",
+        "report_id": 9,
+        "cell_id": 1,
+        "generation_us": 500000,
+        "decision_clock_us": 750000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      }
+    ]
+  },
+  "runs/C1_run_6203": {
+    "count_accepted_forged_packets": [],
+    "benign_mismatches_tolerated_by_history": [
+      {
+        "condition": "C1",
+        "rng_run": 6203,
+        "case": "delayed",
+        "report_id": 6,
+        "cell_id": 1,
+        "generation_us": 300000,
+        "decision_clock_us": 550000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      },
+      {
+        "condition": "C1",
+        "rng_run": 6203,
+        "case": "forged_faults",
+        "report_id": 6,
+        "cell_id": 1,
+        "generation_us": 300000,
+        "decision_clock_us": 550000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      },
+      {
+        "condition": "C1",
+        "rng_run": 6203,
+        "case": "delayed",
+        "report_id": 7,
+        "cell_id": 1,
+        "generation_us": 400000,
+        "decision_clock_us": 650000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      },
+      {
+        "condition": "C1",
+        "rng_run": 6203,
+        "case": "delayed",
+        "report_id": 9,
+        "cell_id": 1,
+        "generation_us": 500000,
+        "decision_clock_us": 750000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      },
+      {
+        "condition": "C1",
+        "rng_run": 6203,
+        "case": "forged_faults",
+        "report_id": 9,
+        "cell_id": 1,
+        "generation_us": 500000,
+        "decision_clock_us": 750000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      }
+    ]
+  },
+  "runs/C1_run_6204": {
+    "count_accepted_forged_packets": [],
+    "benign_mismatches_tolerated_by_history": [
+      {
+        "condition": "C1",
+        "rng_run": 6204,
+        "case": "delayed",
+        "report_id": 3,
+        "cell_id": 1,
+        "generation_us": 300000,
+        "decision_clock_us": 550000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      },
+      {
+        "condition": "C1",
+        "rng_run": 6204,
+        "case": "forged_faults",
+        "report_id": 3,
+        "cell_id": 1,
+        "generation_us": 300000,
+        "decision_clock_us": 550000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      },
+      {
+        "condition": "C1",
+        "rng_run": 6204,
+        "case": "delayed",
+        "report_id": 4,
+        "cell_id": 1,
+        "generation_us": 400000,
+        "decision_clock_us": 650000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      },
+      {
+        "condition": "C1",
+        "rng_run": 6204,
+        "case": "delayed",
+        "report_id": 5,
+        "cell_id": 1,
+        "generation_us": 500000,
+        "decision_clock_us": 750000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      },
+      {
+        "condition": "C1",
+        "rng_run": 6204,
+        "case": "forged_faults",
+        "report_id": 5,
+        "cell_id": 1,
+        "generation_us": 500000,
+        "decision_clock_us": 750000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      }
+    ]
+  },
+  "runs/C1_run_6205": {
+    "count_accepted_forged_packets": [],
+    "benign_mismatches_tolerated_by_history": [
+      {
+        "condition": "C1",
+        "rng_run": 6205,
+        "case": "delayed",
+        "report_id": 3,
+        "cell_id": 1,
+        "generation_us": 300000,
+        "decision_clock_us": 550000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      },
+      {
+        "condition": "C1",
+        "rng_run": 6205,
+        "case": "forged_faults",
+        "report_id": 3,
+        "cell_id": 1,
+        "generation_us": 300000,
+        "decision_clock_us": 550000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      },
+      {
+        "condition": "C1",
+        "rng_run": 6205,
+        "case": "delayed",
+        "report_id": 4,
+        "cell_id": 1,
+        "generation_us": 400000,
+        "decision_clock_us": 650000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      },
+      {
+        "condition": "C1",
+        "rng_run": 6205,
+        "case": "delayed",
+        "report_id": 5,
+        "cell_id": 1,
+        "generation_us": 500000,
+        "decision_clock_us": 750000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      },
+      {
+        "condition": "C1",
+        "rng_run": 6205,
+        "case": "forged_faults",
+        "report_id": 5,
+        "cell_id": 1,
+        "generation_us": 500000,
+        "decision_clock_us": 750000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      }
+    ]
+  },
+  "runs/C1_run_6206": {
+    "count_accepted_forged_packets": [],
+    "benign_mismatches_tolerated_by_history": [
+      {
+        "condition": "C1",
+        "rng_run": 6206,
+        "case": "delayed",
+        "report_id": 6,
+        "cell_id": 1,
+        "generation_us": 300000,
+        "decision_clock_us": 550000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      },
+      {
+        "condition": "C1",
+        "rng_run": 6206,
+        "case": "forged_faults",
+        "report_id": 6,
+        "cell_id": 1,
+        "generation_us": 300000,
+        "decision_clock_us": 550000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      },
+      {
+        "condition": "C1",
+        "rng_run": 6206,
+        "case": "delayed",
+        "report_id": 7,
+        "cell_id": 1,
+        "generation_us": 400000,
+        "decision_clock_us": 650000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      },
+      {
+        "condition": "C1",
+        "rng_run": 6206,
+        "case": "delayed",
+        "report_id": 9,
+        "cell_id": 1,
+        "generation_us": 500000,
+        "decision_clock_us": 750000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      },
+      {
+        "condition": "C1",
+        "rng_run": 6206,
+        "case": "forged_faults",
+        "report_id": 9,
+        "cell_id": 1,
+        "generation_us": 500000,
+        "decision_clock_us": 750000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      }
+    ]
+  },
+  "runs/C2_run_6202": {
+    "count_accepted_forged_packets": [],
+    "benign_mismatches_tolerated_by_history": [
+      {
+        "condition": "C2",
+        "rng_run": 6202,
+        "case": "delayed",
+        "report_id": 9,
+        "cell_id": 1,
+        "generation_us": 500000,
+        "decision_clock_us": 600000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      },
+      {
+        "condition": "C2",
+        "rng_run": 6202,
+        "case": "forged_faults",
+        "report_id": 9,
+        "cell_id": 1,
+        "generation_us": 500000,
+        "decision_clock_us": 600000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      }
+    ]
+  },
+  "runs/C2_run_6203": {
+    "count_accepted_forged_packets": [],
+    "benign_mismatches_tolerated_by_history": [
+      {
+        "condition": "C2",
+        "rng_run": 6203,
+        "case": "delayed",
+        "report_id": 9,
+        "cell_id": 1,
+        "generation_us": 500000,
+        "decision_clock_us": 600000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      },
+      {
+        "condition": "C2",
+        "rng_run": 6203,
+        "case": "forged_faults",
+        "report_id": 9,
+        "cell_id": 1,
+        "generation_us": 500000,
+        "decision_clock_us": 600000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      }
+    ]
+  },
+  "runs/C2_run_6204": {
+    "count_accepted_forged_packets": [],
+    "benign_mismatches_tolerated_by_history": [
+      {
+        "condition": "C2",
+        "rng_run": 6204,
+        "case": "delayed",
+        "report_id": 5,
+        "cell_id": 1,
+        "generation_us": 500000,
+        "decision_clock_us": 600000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      },
+      {
+        "condition": "C2",
+        "rng_run": 6204,
+        "case": "forged_faults",
+        "report_id": 5,
+        "cell_id": 1,
+        "generation_us": 500000,
+        "decision_clock_us": 600000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      }
+    ]
+  },
+  "runs/C2_run_6205": {
+    "count_accepted_forged_packets": [],
+    "benign_mismatches_tolerated_by_history": [
+      {
+        "condition": "C2",
+        "rng_run": 6205,
+        "case": "delayed",
+        "report_id": 5,
+        "cell_id": 1,
+        "generation_us": 500000,
+        "decision_clock_us": 600000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      },
+      {
+        "condition": "C2",
+        "rng_run": 6205,
+        "case": "forged_faults",
+        "report_id": 5,
+        "cell_id": 1,
+        "generation_us": 500000,
+        "decision_clock_us": 600000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      }
+    ]
+  },
+  "runs/C2_run_6206": {
+    "count_accepted_forged_packets": [],
+    "benign_mismatches_tolerated_by_history": [
+      {
+        "condition": "C2",
+        "rng_run": 6206,
+        "case": "delayed",
+        "report_id": 10,
+        "cell_id": 1,
+        "generation_us": 500000,
+        "decision_clock_us": 600000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      },
+      {
+        "condition": "C2",
+        "rng_run": 6206,
+        "case": "forged_faults",
+        "report_id": 10,
+        "cell_id": 1,
+        "generation_us": 500000,
+        "decision_clock_us": 600000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      }
+    ]
+  },
+  "runs/C3_run_6202": {
+    "count_accepted_forged_packets": [],
+    "benign_mismatches_tolerated_by_history": [
+      {
+        "condition": "C3",
+        "rng_run": 6202,
+        "case": "delayed",
+        "report_id": 6,
+        "cell_id": 1,
+        "generation_us": 300000,
+        "decision_clock_us": 750000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      },
+      {
+        "condition": "C3",
+        "rng_run": 6202,
+        "case": "forged_faults",
+        "report_id": 6,
+        "cell_id": 1,
+        "generation_us": 300000,
+        "decision_clock_us": 750000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      }
+    ]
+  },
+  "runs/C3_run_6203": {
+    "count_accepted_forged_packets": [],
+    "benign_mismatches_tolerated_by_history": [
+      {
+        "condition": "C3",
+        "rng_run": 6203,
+        "case": "delayed",
+        "report_id": 6,
+        "cell_id": 1,
+        "generation_us": 300000,
+        "decision_clock_us": 750000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      },
+      {
+        "condition": "C3",
+        "rng_run": 6203,
+        "case": "forged_faults",
+        "report_id": 6,
+        "cell_id": 1,
+        "generation_us": 300000,
+        "decision_clock_us": 750000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      }
+    ]
+  },
+  "runs/C3_run_6204": {
+    "count_accepted_forged_packets": [],
+    "benign_mismatches_tolerated_by_history": [
+      {
+        "condition": "C3",
+        "rng_run": 6204,
+        "case": "delayed",
+        "report_id": 3,
+        "cell_id": 1,
+        "generation_us": 300000,
+        "decision_clock_us": 750000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      },
+      {
+        "condition": "C3",
+        "rng_run": 6204,
+        "case": "forged_faults",
+        "report_id": 3,
+        "cell_id": 1,
+        "generation_us": 300000,
+        "decision_clock_us": 750000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      }
+    ]
+  },
+  "runs/C3_run_6205": {
+    "count_accepted_forged_packets": [],
+    "benign_mismatches_tolerated_by_history": [
+      {
+        "condition": "C3",
+        "rng_run": 6205,
+        "case": "delayed",
+        "report_id": 3,
+        "cell_id": 1,
+        "generation_us": 300000,
+        "decision_clock_us": 750000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      },
+      {
+        "condition": "C3",
+        "rng_run": 6205,
+        "case": "forged_faults",
+        "report_id": 3,
+        "cell_id": 1,
+        "generation_us": 300000,
+        "decision_clock_us": 750000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      }
+    ]
+  },
+  "runs/C3_run_6206": {
+    "count_accepted_forged_packets": [],
+    "benign_mismatches_tolerated_by_history": [
+      {
+        "condition": "C3",
+        "rng_run": 6206,
+        "case": "delayed",
+        "report_id": 6,
+        "cell_id": 1,
+        "generation_us": 300000,
+        "decision_clock_us": 750000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      },
+      {
+        "condition": "C3",
+        "rng_run": 6206,
+        "case": "forged_faults",
+        "report_id": 6,
+        "cell_id": 1,
+        "generation_us": 300000,
+        "decision_clock_us": 750000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      }
+    ]
+  },
+  "runs/C4_run_6202": {
+    "count_accepted_forged_packets": [],
+    "benign_mismatches_tolerated_by_history": [
+      {
+        "condition": "C4",
+        "rng_run": 6202,
+        "case": "delayed",
+        "report_id": 6,
+        "cell_id": 1,
+        "generation_us": 300000,
+        "decision_clock_us": 550000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      },
+      {
+        "condition": "C4",
+        "rng_run": 6202,
+        "case": "forged_faults",
+        "report_id": 6,
+        "cell_id": 1,
+        "generation_us": 300000,
+        "decision_clock_us": 550000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      }
+    ]
+  },
+  "runs/C4_run_6203": {
+    "count_accepted_forged_packets": [],
+    "benign_mismatches_tolerated_by_history": [
+      {
+        "condition": "C4",
+        "rng_run": 6203,
+        "case": "delayed",
+        "report_id": 6,
+        "cell_id": 1,
+        "generation_us": 300000,
+        "decision_clock_us": 550000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      },
+      {
+        "condition": "C4",
+        "rng_run": 6203,
+        "case": "forged_faults",
+        "report_id": 6,
+        "cell_id": 1,
+        "generation_us": 300000,
+        "decision_clock_us": 550000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      }
+    ]
+  },
+  "runs/C4_run_6204": {
+    "count_accepted_forged_packets": [],
+    "benign_mismatches_tolerated_by_history": [
+      {
+        "condition": "C4",
+        "rng_run": 6204,
+        "case": "delayed",
+        "report_id": 3,
+        "cell_id": 1,
+        "generation_us": 300000,
+        "decision_clock_us": 550000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      },
+      {
+        "condition": "C4",
+        "rng_run": 6204,
+        "case": "forged_faults",
+        "report_id": 3,
+        "cell_id": 1,
+        "generation_us": 300000,
+        "decision_clock_us": 550000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      }
+    ]
+  },
+  "runs/C4_run_6205": {
+    "count_accepted_forged_packets": [],
+    "benign_mismatches_tolerated_by_history": [
+      {
+        "condition": "C4",
+        "rng_run": 6205,
+        "case": "delayed",
+        "report_id": 3,
+        "cell_id": 1,
+        "generation_us": 300000,
+        "decision_clock_us": 550000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      },
+      {
+        "condition": "C4",
+        "rng_run": 6205,
+        "case": "forged_faults",
+        "report_id": 3,
+        "cell_id": 1,
+        "generation_us": 300000,
+        "decision_clock_us": 550000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      }
+    ]
+  },
+  "runs/C4_run_6206": {
+    "count_accepted_forged_packets": [],
+    "benign_mismatches_tolerated_by_history": [
+      {
+        "condition": "C4",
+        "rng_run": 6206,
+        "case": "delayed",
+        "report_id": 6,
+        "cell_id": 1,
+        "generation_us": 300000,
+        "decision_clock_us": 550000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      },
+      {
+        "condition": "C4",
+        "rng_run": 6206,
+        "case": "forged_faults",
+        "report_id": 6,
+        "cell_id": 1,
+        "generation_us": 300000,
+        "decision_clock_us": 550000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      }
+    ]
+  },
+  "runs/C5_run_6202": {
+    "count_accepted_forged_packets": [],
+    "benign_mismatches_tolerated_by_history": [
+      {
+        "condition": "C5",
+        "rng_run": 6202,
+        "case": "delayed",
+        "report_id": 6,
+        "cell_id": 1,
+        "generation_us": 300000,
+        "decision_clock_us": 550000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      },
+      {
+        "condition": "C5",
+        "rng_run": 6202,
+        "case": "forged_faults",
+        "report_id": 6,
+        "cell_id": 1,
+        "generation_us": 300000,
+        "decision_clock_us": 550000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      },
+      {
+        "condition": "C5",
+        "rng_run": 6202,
+        "case": "delayed",
+        "report_id": 7,
+        "cell_id": 1,
+        "generation_us": 400000,
+        "decision_clock_us": 650000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      },
+      {
+        "condition": "C5",
+        "rng_run": 6202,
+        "case": "delayed",
+        "report_id": 10,
+        "cell_id": 1,
+        "generation_us": 500000,
+        "decision_clock_us": 750000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      },
+      {
+        "condition": "C5",
+        "rng_run": 6202,
+        "case": "forged_faults",
+        "report_id": 10,
+        "cell_id": 1,
+        "generation_us": 500000,
+        "decision_clock_us": 750000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      }
+    ]
+  },
+  "runs/C5_run_6203": {
+    "count_accepted_forged_packets": [],
+    "benign_mismatches_tolerated_by_history": [
+      {
+        "condition": "C5",
+        "rng_run": 6203,
+        "case": "delayed",
+        "report_id": 6,
+        "cell_id": 1,
+        "generation_us": 300000,
+        "decision_clock_us": 550000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      },
+      {
+        "condition": "C5",
+        "rng_run": 6203,
+        "case": "forged_faults",
+        "report_id": 6,
+        "cell_id": 1,
+        "generation_us": 300000,
+        "decision_clock_us": 550000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      },
+      {
+        "condition": "C5",
+        "rng_run": 6203,
+        "case": "delayed",
+        "report_id": 7,
+        "cell_id": 1,
+        "generation_us": 400000,
+        "decision_clock_us": 650000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      },
+      {
+        "condition": "C5",
+        "rng_run": 6203,
+        "case": "delayed",
+        "report_id": 10,
+        "cell_id": 1,
+        "generation_us": 500000,
+        "decision_clock_us": 750000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      },
+      {
+        "condition": "C5",
+        "rng_run": 6203,
+        "case": "forged_faults",
+        "report_id": 10,
+        "cell_id": 1,
+        "generation_us": 500000,
+        "decision_clock_us": 750000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      }
+    ]
+  },
+  "runs/C5_run_6204": {
+    "count_accepted_forged_packets": [],
+    "benign_mismatches_tolerated_by_history": [
+      {
+        "condition": "C5",
+        "rng_run": 6204,
+        "case": "delayed",
+        "report_id": 3,
+        "cell_id": 1,
+        "generation_us": 300000,
+        "decision_clock_us": 550000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      },
+      {
+        "condition": "C5",
+        "rng_run": 6204,
+        "case": "forged_faults",
+        "report_id": 3,
+        "cell_id": 1,
+        "generation_us": 300000,
+        "decision_clock_us": 550000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      },
+      {
+        "condition": "C5",
+        "rng_run": 6204,
+        "case": "delayed",
+        "report_id": 4,
+        "cell_id": 1,
+        "generation_us": 400000,
+        "decision_clock_us": 650000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      },
+      {
+        "condition": "C5",
+        "rng_run": 6204,
+        "case": "delayed",
+        "report_id": 5,
+        "cell_id": 1,
+        "generation_us": 500000,
+        "decision_clock_us": 750000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      },
+      {
+        "condition": "C5",
+        "rng_run": 6204,
+        "case": "forged_faults",
+        "report_id": 5,
+        "cell_id": 1,
+        "generation_us": 500000,
+        "decision_clock_us": 750000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      }
+    ]
+  },
+  "runs/C5_run_6205": {
+    "count_accepted_forged_packets": [],
+    "benign_mismatches_tolerated_by_history": [
+      {
+        "condition": "C5",
+        "rng_run": 6205,
+        "case": "delayed",
+        "report_id": 3,
+        "cell_id": 1,
+        "generation_us": 300000,
+        "decision_clock_us": 550000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      },
+      {
+        "condition": "C5",
+        "rng_run": 6205,
+        "case": "forged_faults",
+        "report_id": 3,
+        "cell_id": 1,
+        "generation_us": 300000,
+        "decision_clock_us": 550000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      },
+      {
+        "condition": "C5",
+        "rng_run": 6205,
+        "case": "delayed",
+        "report_id": 4,
+        "cell_id": 1,
+        "generation_us": 400000,
+        "decision_clock_us": 650000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      },
+      {
+        "condition": "C5",
+        "rng_run": 6205,
+        "case": "delayed",
+        "report_id": 5,
+        "cell_id": 1,
+        "generation_us": 500000,
+        "decision_clock_us": 750000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      },
+      {
+        "condition": "C5",
+        "rng_run": 6205,
+        "case": "forged_faults",
+        "report_id": 5,
+        "cell_id": 1,
+        "generation_us": 500000,
+        "decision_clock_us": 750000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      }
+    ]
+  },
+  "runs/C5_run_6206": {
+    "count_accepted_forged_packets": [],
+    "benign_mismatches_tolerated_by_history": [
+      {
+        "condition": "C5",
+        "rng_run": 6206,
+        "case": "delayed",
+        "report_id": 6,
+        "cell_id": 1,
+        "generation_us": 300000,
+        "decision_clock_us": 550000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      },
+      {
+        "condition": "C5",
+        "rng_run": 6206,
+        "case": "forged_faults",
+        "report_id": 6,
+        "cell_id": 1,
+        "generation_us": 300000,
+        "decision_clock_us": 550000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      },
+      {
+        "condition": "C5",
+        "rng_run": 6206,
+        "case": "delayed",
+        "report_id": 7,
+        "cell_id": 1,
+        "generation_us": 400000,
+        "decision_clock_us": 650000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      },
+      {
+        "condition": "C5",
+        "rng_run": 6206,
+        "case": "delayed",
+        "report_id": 9,
+        "cell_id": 1,
+        "generation_us": 500000,
+        "decision_clock_us": 750000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      },
+      {
+        "condition": "C5",
+        "rng_run": 6206,
+        "case": "forged_faults",
+        "report_id": 9,
+        "cell_id": 1,
+        "generation_us": 500000,
+        "decision_clock_us": 750000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      }
+    ]
+  },
+  "runs/J1_run_6202": {
+    "count_accepted_forged_packets": [
+      {
+        "condition": "J1",
+        "rng_run": 6202,
+        "case": "forged_faults",
+        "report_id": 6,
+        "cell_id": 1,
+        "generation_us": 300000,
+        "decision_clock_us": 550000,
+        "reported_count": 2,
+        "reported_imsis": [
+          1,
+          99999
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "consistent",
+          "ue_membership": "alarm",
+          "time_aware": "alarm"
+        },
+        "time_aware_matching_snapshot_us": null,
+        "matching_snapshot_imsis": null
+      },
+      {
+        "condition": "J1",
+        "rng_run": 6202,
+        "case": "forged_faults",
+        "report_id": 9,
+        "cell_id": 1,
+        "generation_us": 500000,
+        "decision_clock_us": 750000,
+        "reported_count": 2,
+        "reported_imsis": [
+          1,
+          99999
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "consistent",
+          "ue_membership": "alarm",
+          "time_aware": "alarm"
+        },
+        "time_aware_matching_snapshot_us": null,
+        "matching_snapshot_imsis": null
+      }
+    ],
+    "benign_mismatches_tolerated_by_history": [
+      {
+        "condition": "J1",
+        "rng_run": 6202,
+        "case": "delayed",
+        "report_id": 6,
+        "cell_id": 1,
+        "generation_us": 300000,
+        "decision_clock_us": 550000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      },
+      {
+        "condition": "J1",
+        "rng_run": 6202,
+        "case": "delayed",
+        "report_id": 8,
+        "cell_id": 1,
+        "generation_us": 400000,
+        "decision_clock_us": 650000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      },
+      {
+        "condition": "J1",
+        "rng_run": 6202,
+        "case": "delayed",
+        "report_id": 9,
+        "cell_id": 1,
+        "generation_us": 500000,
+        "decision_clock_us": 750000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      }
+    ]
+  },
+  "runs/J1_run_6203": {
+    "count_accepted_forged_packets": [
+      {
+        "condition": "J1",
+        "rng_run": 6203,
+        "case": "forged_faults",
+        "report_id": 6,
+        "cell_id": 1,
+        "generation_us": 300000,
+        "decision_clock_us": 550000,
+        "reported_count": 2,
+        "reported_imsis": [
+          1,
+          99999
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "consistent",
+          "ue_membership": "alarm",
+          "time_aware": "alarm"
+        },
+        "time_aware_matching_snapshot_us": null,
+        "matching_snapshot_imsis": null
+      },
+      {
+        "condition": "J1",
+        "rng_run": 6203,
+        "case": "forged_faults",
+        "report_id": 9,
+        "cell_id": 1,
+        "generation_us": 500000,
+        "decision_clock_us": 750000,
+        "reported_count": 2,
+        "reported_imsis": [
+          1,
+          99999
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "consistent",
+          "ue_membership": "alarm",
+          "time_aware": "alarm"
+        },
+        "time_aware_matching_snapshot_us": null,
+        "matching_snapshot_imsis": null
+      }
+    ],
+    "benign_mismatches_tolerated_by_history": [
+      {
+        "condition": "J1",
+        "rng_run": 6203,
+        "case": "delayed",
+        "report_id": 6,
+        "cell_id": 1,
+        "generation_us": 300000,
+        "decision_clock_us": 550000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      },
+      {
+        "condition": "J1",
+        "rng_run": 6203,
+        "case": "delayed",
+        "report_id": 7,
+        "cell_id": 1,
+        "generation_us": 400000,
+        "decision_clock_us": 650000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      },
+      {
+        "condition": "J1",
+        "rng_run": 6203,
+        "case": "delayed",
+        "report_id": 9,
+        "cell_id": 1,
+        "generation_us": 500000,
+        "decision_clock_us": 750000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      }
+    ]
+  },
+  "runs/J1_run_6204": {
+    "count_accepted_forged_packets": [
+      {
+        "condition": "J1",
+        "rng_run": 6204,
+        "case": "forged_faults",
+        "report_id": 3,
+        "cell_id": 1,
+        "generation_us": 300000,
+        "decision_clock_us": 550000,
+        "reported_count": 2,
+        "reported_imsis": [
+          1,
+          99999
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "consistent",
+          "ue_membership": "alarm",
+          "time_aware": "alarm"
+        },
+        "time_aware_matching_snapshot_us": null,
+        "matching_snapshot_imsis": null
+      },
+      {
+        "condition": "J1",
+        "rng_run": 6204,
+        "case": "forged_faults",
+        "report_id": 5,
+        "cell_id": 1,
+        "generation_us": 500000,
+        "decision_clock_us": 750000,
+        "reported_count": 2,
+        "reported_imsis": [
+          1,
+          99999
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "consistent",
+          "ue_membership": "alarm",
+          "time_aware": "alarm"
+        },
+        "time_aware_matching_snapshot_us": null,
+        "matching_snapshot_imsis": null
+      }
+    ],
+    "benign_mismatches_tolerated_by_history": [
+      {
+        "condition": "J1",
+        "rng_run": 6204,
+        "case": "delayed",
+        "report_id": 3,
+        "cell_id": 1,
+        "generation_us": 300000,
+        "decision_clock_us": 550000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      },
+      {
+        "condition": "J1",
+        "rng_run": 6204,
+        "case": "delayed",
+        "report_id": 4,
+        "cell_id": 1,
+        "generation_us": 400000,
+        "decision_clock_us": 650000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      },
+      {
+        "condition": "J1",
+        "rng_run": 6204,
+        "case": "delayed",
+        "report_id": 5,
+        "cell_id": 1,
+        "generation_us": 500000,
+        "decision_clock_us": 750000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      }
+    ]
+  },
+  "runs/J1_run_6205": {
+    "count_accepted_forged_packets": [
+      {
+        "condition": "J1",
+        "rng_run": 6205,
+        "case": "forged_faults",
+        "report_id": 3,
+        "cell_id": 1,
+        "generation_us": 300000,
+        "decision_clock_us": 550000,
+        "reported_count": 2,
+        "reported_imsis": [
+          1,
+          99999
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "consistent",
+          "ue_membership": "alarm",
+          "time_aware": "alarm"
+        },
+        "time_aware_matching_snapshot_us": null,
+        "matching_snapshot_imsis": null
+      },
+      {
+        "condition": "J1",
+        "rng_run": 6205,
+        "case": "forged_faults",
+        "report_id": 5,
+        "cell_id": 1,
+        "generation_us": 500000,
+        "decision_clock_us": 750000,
+        "reported_count": 2,
+        "reported_imsis": [
+          1,
+          99999
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "consistent",
+          "ue_membership": "alarm",
+          "time_aware": "alarm"
+        },
+        "time_aware_matching_snapshot_us": null,
+        "matching_snapshot_imsis": null
+      }
+    ],
+    "benign_mismatches_tolerated_by_history": [
+      {
+        "condition": "J1",
+        "rng_run": 6205,
+        "case": "delayed",
+        "report_id": 3,
+        "cell_id": 1,
+        "generation_us": 300000,
+        "decision_clock_us": 550000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      },
+      {
+        "condition": "J1",
+        "rng_run": 6205,
+        "case": "delayed",
+        "report_id": 4,
+        "cell_id": 1,
+        "generation_us": 400000,
+        "decision_clock_us": 650000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      },
+      {
+        "condition": "J1",
+        "rng_run": 6205,
+        "case": "delayed",
+        "report_id": 5,
+        "cell_id": 1,
+        "generation_us": 500000,
+        "decision_clock_us": 750000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      }
+    ]
+  },
+  "runs/J1_run_6206": {
+    "count_accepted_forged_packets": [
+      {
+        "condition": "J1",
+        "rng_run": 6206,
+        "case": "forged_faults",
+        "report_id": 6,
+        "cell_id": 1,
+        "generation_us": 300000,
+        "decision_clock_us": 550000,
+        "reported_count": 2,
+        "reported_imsis": [
+          1,
+          99999
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "consistent",
+          "ue_membership": "alarm",
+          "time_aware": "alarm"
+        },
+        "time_aware_matching_snapshot_us": null,
+        "matching_snapshot_imsis": null
+      },
+      {
+        "condition": "J1",
+        "rng_run": 6206,
+        "case": "forged_faults",
+        "report_id": 9,
+        "cell_id": 1,
+        "generation_us": 500000,
+        "decision_clock_us": 750000,
+        "reported_count": 2,
+        "reported_imsis": [
+          1,
+          99999
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "consistent",
+          "ue_membership": "alarm",
+          "time_aware": "alarm"
+        },
+        "time_aware_matching_snapshot_us": null,
+        "matching_snapshot_imsis": null
+      }
+    ],
+    "benign_mismatches_tolerated_by_history": [
+      {
+        "condition": "J1",
+        "rng_run": 6206,
+        "case": "delayed",
+        "report_id": 6,
+        "cell_id": 1,
+        "generation_us": 300000,
+        "decision_clock_us": 550000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      },
+      {
+        "condition": "J1",
+        "rng_run": 6206,
+        "case": "delayed",
+        "report_id": 7,
+        "cell_id": 1,
+        "generation_us": 400000,
+        "decision_clock_us": 650000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      },
+      {
+        "condition": "J1",
+        "rng_run": 6206,
+        "case": "delayed",
+        "report_id": 9,
+        "cell_id": 1,
+        "generation_us": 500000,
+        "decision_clock_us": 750000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      }
+    ]
+  },
+  "runs/J2_run_6202": {
+    "count_accepted_forged_packets": [
+      {
+        "condition": "J2",
+        "rng_run": 6202,
+        "case": "forged_faults",
+        "report_id": 6,
+        "cell_id": 1,
+        "generation_us": 300000,
+        "decision_clock_us": 550000,
+        "reported_count": 2,
+        "reported_imsis": [
+          1,
+          99999
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "consistent",
+          "ue_membership": "alarm",
+          "time_aware": "alarm"
+        },
+        "time_aware_matching_snapshot_us": null,
+        "matching_snapshot_imsis": null
+      },
+      {
+        "condition": "J2",
+        "rng_run": 6202,
+        "case": "forged_faults",
+        "report_id": 10,
+        "cell_id": 1,
+        "generation_us": 500000,
+        "decision_clock_us": 750000,
+        "reported_count": 2,
+        "reported_imsis": [
+          1,
+          99999
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "consistent",
+          "ue_membership": "alarm",
+          "time_aware": "alarm"
+        },
+        "time_aware_matching_snapshot_us": null,
+        "matching_snapshot_imsis": null
+      }
+    ],
+    "benign_mismatches_tolerated_by_history": [
+      {
+        "condition": "J2",
+        "rng_run": 6202,
+        "case": "delayed",
+        "report_id": 6,
+        "cell_id": 1,
+        "generation_us": 300000,
+        "decision_clock_us": 550000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      }
+    ]
+  },
+  "runs/J2_run_6203": {
+    "count_accepted_forged_packets": [
+      {
+        "condition": "J2",
+        "rng_run": 6203,
+        "case": "forged_faults",
+        "report_id": 6,
+        "cell_id": 1,
+        "generation_us": 300000,
+        "decision_clock_us": 550000,
+        "reported_count": 2,
+        "reported_imsis": [
+          1,
+          99999
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "consistent",
+          "ue_membership": "alarm",
+          "time_aware": "alarm"
+        },
+        "time_aware_matching_snapshot_us": null,
+        "matching_snapshot_imsis": null
+      },
+      {
+        "condition": "J2",
+        "rng_run": 6203,
+        "case": "forged_faults",
+        "report_id": 9,
+        "cell_id": 1,
+        "generation_us": 500000,
+        "decision_clock_us": 750000,
+        "reported_count": 2,
+        "reported_imsis": [
+          1,
+          99999
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "consistent",
+          "ue_membership": "alarm",
+          "time_aware": "alarm"
+        },
+        "time_aware_matching_snapshot_us": null,
+        "matching_snapshot_imsis": null
+      }
+    ],
+    "benign_mismatches_tolerated_by_history": [
+      {
+        "condition": "J2",
+        "rng_run": 6203,
+        "case": "delayed",
+        "report_id": 6,
+        "cell_id": 1,
+        "generation_us": 300000,
+        "decision_clock_us": 550000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      }
+    ]
+  },
+  "runs/J2_run_6204": {
+    "count_accepted_forged_packets": [
+      {
+        "condition": "J2",
+        "rng_run": 6204,
+        "case": "forged_faults",
+        "report_id": 3,
+        "cell_id": 1,
+        "generation_us": 300000,
+        "decision_clock_us": 550000,
+        "reported_count": 2,
+        "reported_imsis": [
+          1,
+          99999
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "consistent",
+          "ue_membership": "alarm",
+          "time_aware": "alarm"
+        },
+        "time_aware_matching_snapshot_us": null,
+        "matching_snapshot_imsis": null
+      },
+      {
+        "condition": "J2",
+        "rng_run": 6204,
+        "case": "forged_faults",
+        "report_id": 5,
+        "cell_id": 1,
+        "generation_us": 500000,
+        "decision_clock_us": 750000,
+        "reported_count": 2,
+        "reported_imsis": [
+          1,
+          99999
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "consistent",
+          "ue_membership": "alarm",
+          "time_aware": "alarm"
+        },
+        "time_aware_matching_snapshot_us": null,
+        "matching_snapshot_imsis": null
+      }
+    ],
+    "benign_mismatches_tolerated_by_history": [
+      {
+        "condition": "J2",
+        "rng_run": 6204,
+        "case": "delayed",
+        "report_id": 3,
+        "cell_id": 1,
+        "generation_us": 300000,
+        "decision_clock_us": 550000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      }
+    ]
+  },
+  "runs/J2_run_6205": {
+    "count_accepted_forged_packets": [
+      {
+        "condition": "J2",
+        "rng_run": 6205,
+        "case": "forged_faults",
+        "report_id": 3,
+        "cell_id": 1,
+        "generation_us": 300000,
+        "decision_clock_us": 550000,
+        "reported_count": 2,
+        "reported_imsis": [
+          1,
+          99999
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "consistent",
+          "ue_membership": "alarm",
+          "time_aware": "alarm"
+        },
+        "time_aware_matching_snapshot_us": null,
+        "matching_snapshot_imsis": null
+      },
+      {
+        "condition": "J2",
+        "rng_run": 6205,
+        "case": "forged_faults",
+        "report_id": 5,
+        "cell_id": 1,
+        "generation_us": 500000,
+        "decision_clock_us": 750000,
+        "reported_count": 2,
+        "reported_imsis": [
+          1,
+          99999
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "consistent",
+          "ue_membership": "alarm",
+          "time_aware": "alarm"
+        },
+        "time_aware_matching_snapshot_us": null,
+        "matching_snapshot_imsis": null
+      }
+    ],
+    "benign_mismatches_tolerated_by_history": [
+      {
+        "condition": "J2",
+        "rng_run": 6205,
+        "case": "delayed",
+        "report_id": 3,
+        "cell_id": 1,
+        "generation_us": 300000,
+        "decision_clock_us": 550000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      }
+    ]
+  },
+  "runs/J2_run_6206": {
+    "count_accepted_forged_packets": [
+      {
+        "condition": "J2",
+        "rng_run": 6206,
+        "case": "forged_faults",
+        "report_id": 6,
+        "cell_id": 1,
+        "generation_us": 300000,
+        "decision_clock_us": 550000,
+        "reported_count": 2,
+        "reported_imsis": [
+          1,
+          99999
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "consistent",
+          "ue_membership": "alarm",
+          "time_aware": "alarm"
+        },
+        "time_aware_matching_snapshot_us": null,
+        "matching_snapshot_imsis": null
+      },
+      {
+        "condition": "J2",
+        "rng_run": 6206,
+        "case": "forged_faults",
+        "report_id": 9,
+        "cell_id": 1,
+        "generation_us": 500000,
+        "decision_clock_us": 750000,
+        "reported_count": 2,
+        "reported_imsis": [
+          1,
+          99999
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "consistent",
+          "ue_membership": "alarm",
+          "time_aware": "alarm"
+        },
+        "time_aware_matching_snapshot_us": null,
+        "matching_snapshot_imsis": null
+      }
+    ],
+    "benign_mismatches_tolerated_by_history": [
+      {
+        "condition": "J2",
+        "rng_run": 6206,
+        "case": "delayed",
+        "report_id": 6,
+        "cell_id": 1,
+        "generation_us": 300000,
+        "decision_clock_us": 550000,
+        "reported_count": 1,
+        "reported_imsis": [
+          1
+        ],
+        "latest_reference_count": 2,
+        "latest_reference_imsis": [
+          1,
+          2
+        ],
+        "latest_reference_raw_contexts": [
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "verdicts": {
+          "ue_count": "alarm",
+          "ue_membership": "alarm",
+          "time_aware": "consistent"
+        },
+        "time_aware_matching_snapshot_us": 500000,
+        "matching_snapshot_imsis": [
+          1
+        ]
+      }
+    ]
+  }
+}

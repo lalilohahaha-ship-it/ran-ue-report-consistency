@@ -1,0 +1,57 @@
+{
+  "sim_seconds": 2.0,
+  "ues": 2,
+  "late_attach_ms": 500,
+  "fault_window_ms": [
+    300,
+    1400
+  ],
+  "forgery_window_ms": [
+    1000,
+    1400
+  ],
+  "drop_times_ms": [
+    400,
+    600,
+    1100,
+    1300
+  ],
+  "id": "C5",
+  "delay_ms": 250,
+  "grace_ms": 500,
+  "rng_run": 6204,
+  "command": [
+    "/usr/bin/python3",
+    "/home/ubuntu/ns-O-RAN-flexric/mmwave-LENA-oran/test_open/ran_windows_r62c3sef/scripts/ran_live_faults.py",
+    "--repo",
+    "/home/ubuntu/ns-O-RAN-flexric/mmwave-LENA-oran",
+    "--ues",
+    "2",
+    "--seed",
+    "6204",
+    "--sim-seconds",
+    "2.0",
+    "--delay-ms",
+    "250",
+    "--grace-ms",
+    "500",
+    "--fault-start-ms",
+    "300",
+    "--fault-end-ms",
+    "1400",
+    "--forge-start-ms",
+    "1000",
+    "--forge-end-ms",
+    "1400",
+    "--drop-times-ms",
+    "400,600,1100,1300",
+    "--max-wall-seconds",
+    "240"
+  ],
+  "sweep_folder": "/home/ubuntu/ns-O-RAN-flexric/mmwave-LENA-oran/test_open/ran_windows_r62c3sef",
+  "source_sha256": {
+    "scratch/scenario-online-security.cc": "bb5b1e6a408e4df5d525d51aa3ffb35fcc1e90f5c2c8bfd711837fb704104962",
+    "src/mmwave/helper/mmwave-helper.cc": "d925479c8a4be7c44bd974e181f71c0607e3be48d9374fd1fe20a788c74f7b1a"
+  },
+  "attach_mode": "V2 PHY startup / delayed native NAS Connect"
+}

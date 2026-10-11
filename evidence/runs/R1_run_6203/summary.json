@@ -1,0 +1,380 @@
+{
+  "pipeline_status": "PASS",
+  "stop_reason": "process_exit",
+  "return_code": 0,
+  "wall_seconds": 29.62122351396829,
+  "error": null,
+  "data_issues": [],
+  "counts": {
+    "reference_frames_runner_running": 170,
+    "source_rows_runner_running": 54,
+    "source_reports_runner_running": 43
+  },
+  "reference_frames": 170,
+  "reference_cells": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "membership_changes_after_first_kpm": 2,
+  "count_changes_after_first_kpm": 2,
+  "context_transitions_after_first_kpm": [
+    {
+      "snapshot_us": 510000,
+      "cell_id": 1,
+      "old_count": 1,
+      "new_count": 2,
+      "old_members": [
+        1
+      ],
+      "new_members": [
+        1,
+        2
+      ]
+    },
+    {
+      "snapshot_us": 530000,
+      "cell_id": 2,
+      "old_count": 0,
+      "new_count": 1,
+      "old_members": [],
+      "new_members": [
+        2
+      ]
+    }
+  ],
+  "channel_stats": {
+    "normal": {
+      "source_packets": 43,
+      "source_forged": 0,
+      "dropped_packets": 0,
+      "dropped_forged": 0,
+      "delayed_packets": 0,
+      "delivered_live": 43,
+      "delivered_forged_live": 0,
+      "delivered_outside_live": 0
+    },
+    "missing": {
+      "source_packets": 43,
+      "source_forged": 0,
+      "dropped_packets": 11,
+      "dropped_forged": 0,
+      "delayed_packets": 0,
+      "delivered_live": 32,
+      "delivered_forged_live": 0,
+      "delivered_outside_live": 0
+    },
+    "delayed": {
+      "source_packets": 43,
+      "source_forged": 0,
+      "dropped_packets": 0,
+      "dropped_forged": 0,
+      "delayed_packets": 30,
+      "delivered_live": 43,
+      "delivered_forged_live": 0,
+      "delivered_outside_live": 0
+    },
+    "forged": {
+      "source_packets": 43,
+      "source_forged": 12,
+      "dropped_packets": 0,
+      "dropped_forged": 0,
+      "delayed_packets": 0,
+      "delivered_live": 43,
+      "delivered_forged_live": 12,
+      "delivered_outside_live": 0
+    },
+    "forged_faults": {
+      "source_packets": 43,
+      "source_forged": 12,
+      "dropped_packets": 11,
+      "dropped_forged": 6,
+      "delayed_packets": 19,
+      "delivered_live": 32,
+      "delivered_forged_live": 6,
+      "delivered_outside_live": 0
+    }
+  },
+  "metrics_live_only": {
+    "normal": {
+      "ue_count": {
+        "live_total": 43,
+        "live_benign": 43,
+        "live_attack": 0,
+        "TP": 0,
+        "FP": 0,
+        "TN": 43,
+        "FN": 0,
+        "indeterminate_benign": 0,
+        "indeterminate_attack": 0,
+        "outside_live": 0
+      },
+      "ue_membership": {
+        "live_total": 43,
+        "live_benign": 43,
+        "live_attack": 0,
+        "TP": 0,
+        "FP": 0,
+        "TN": 43,
+        "FN": 0,
+        "indeterminate_benign": 0,
+        "indeterminate_attack": 0,
+        "outside_live": 0
+      },
+      "time_aware": {
+        "live_total": 43,
+        "live_benign": 43,
+        "live_attack": 0,
+        "TP": 0,
+        "FP": 0,
+        "TN": 43,
+        "FN": 0,
+        "indeterminate_benign": 0,
+        "indeterminate_attack": 0,
+        "outside_live": 0
+      }
+    },
+    "missing": {
+      "ue_count": {
+        "live_total": 32,
+        "live_benign": 32,
+        "live_attack": 0,
+        "TP": 0,
+        "FP": 0,
+        "TN": 32,
+        "FN": 0,
+        "indeterminate_benign": 0,
+        "indeterminate_attack": 0,
+        "outside_live": 0
+      },
+      "ue_membership": {
+        "live_total": 32,
+        "live_benign": 32,
+        "live_attack": 0,
+        "TP": 0,
+        "FP": 0,
+        "TN": 32,
+        "FN": 0,
+        "indeterminate_benign": 0,
+        "indeterminate_attack": 0,
+        "outside_live": 0
+      },
+      "time_aware": {
+        "live_total": 32,
+        "live_benign": 32,
+        "live_attack": 0,
+        "TP": 0,
+        "FP": 0,
+        "TN": 32,
+        "FN": 0,
+        "indeterminate_benign": 0,
+        "indeterminate_attack": 0,
+        "outside_live": 0
+      }
+    },
+    "delayed": {
+      "ue_count": {
+        "live_total": 43,
+        "live_benign": 43,
+        "live_attack": 0,
+        "TP": 0,
+        "FP": 3,
+        "TN": 40,
+        "FN": 0,
+        "indeterminate_benign": 0,
+        "indeterminate_attack": 0,
+        "outside_live": 0
+      },
+      "ue_membership": {
+        "live_total": 43,
+        "live_benign": 43,
+        "live_attack": 0,
+        "TP": 0,
+        "FP": 3,
+        "TN": 40,
+        "FN": 0,
+        "indeterminate_benign": 0,
+        "indeterminate_attack": 0,
+        "outside_live": 0
+      },
+      "time_aware": {
+        "live_total": 43,
+        "live_benign": 43,
+        "live_attack": 0,
+        "TP": 0,
+        "FP": 0,
+        "TN": 43,
+        "FN": 0,
+        "indeterminate_benign": 0,
+        "indeterminate_attack": 0,
+        "outside_live": 0
+      }
+    },
+    "forged": {
+      "ue_count": {
+        "live_total": 43,
+        "live_benign": 31,
+        "live_attack": 12,
+        "TP": 12,
+        "FP": 0,
+        "TN": 31,
+        "FN": 0,
+        "indeterminate_benign": 0,
+        "indeterminate_attack": 0,
+        "outside_live": 0
+      },
+      "ue_membership": {
+        "live_total": 43,
+        "live_benign": 31,
+        "live_attack": 12,
+        "TP": 12,
+        "FP": 0,
+        "TN": 31,
+        "FN": 0,
+        "indeterminate_benign": 0,
+        "indeterminate_attack": 0,
+        "outside_live": 0
+      },
+      "time_aware": {
+        "live_total": 43,
+        "live_benign": 31,
+        "live_attack": 12,
+        "TP": 12,
+        "FP": 0,
+        "TN": 31,
+        "FN": 0,
+        "indeterminate_benign": 0,
+        "indeterminate_attack": 0,
+        "outside_live": 0
+      }
+    },
+    "forged_faults": {
+      "ue_count": {
+        "live_total": 32,
+        "live_benign": 26,
+        "live_attack": 6,
+        "TP": 6,
+        "FP": 2,
+        "TN": 24,
+        "FN": 0,
+        "indeterminate_benign": 0,
+        "indeterminate_attack": 0,
+        "outside_live": 0
+      },
+      "ue_membership": {
+        "live_total": 32,
+        "live_benign": 26,
+        "live_attack": 6,
+        "TP": 6,
+        "FP": 2,
+        "TN": 24,
+        "FN": 0,
+        "indeterminate_benign": 0,
+        "indeterminate_attack": 0,
+        "outside_live": 0
+      },
+      "time_aware": {
+        "live_total": 32,
+        "live_benign": 26,
+        "live_attack": 6,
+        "TP": 6,
+        "FP": 0,
+        "TN": 26,
+        "FN": 0,
+        "indeterminate_benign": 0,
+        "indeterminate_attack": 0,
+        "outside_live": 0
+      }
+    }
+  },
+  "rates": {
+    "normal": {
+      "ue_count": {
+        "false_alarm_fraction_of_delivered_benign": 0.0,
+        "detection_fraction_of_delivered_forged": null,
+        "detection_fraction_of_all_injected_forged": null
+      },
+      "ue_membership": {
+        "false_alarm_fraction_of_delivered_benign": 0.0,
+        "detection_fraction_of_delivered_forged": null,
+        "detection_fraction_of_all_injected_forged": null
+      },
+      "time_aware": {
+        "false_alarm_fraction_of_delivered_benign": 0.0,
+        "detection_fraction_of_delivered_forged": null,
+        "detection_fraction_of_all_injected_forged": null
+      }
+    },
+    "missing": {
+      "ue_count": {
+        "false_alarm_fraction_of_delivered_benign": 0.0,
+        "detection_fraction_of_delivered_forged": null,
+        "detection_fraction_of_all_injected_forged": null
+      },
+      "ue_membership": {
+        "false_alarm_fraction_of_delivered_benign": 0.0,
+        "detection_fraction_of_delivered_forged": null,
+        "detection_fraction_of_all_injected_forged": null
+      },
+      "time_aware": {
+        "false_alarm_fraction_of_delivered_benign": 0.0,
+        "detection_fraction_of_delivered_forged": null,
+        "detection_fraction_of_all_injected_forged": null
+      }
+    },
+    "delayed": {
+      "ue_count": {
+        "false_alarm_fraction_of_delivered_benign": 0.06976744186046512,
+        "detection_fraction_of_delivered_forged": null,
+        "detection_fraction_of_all_injected_forged": null
+      },
+      "ue_membership": {
+        "false_alarm_fraction_of_delivered_benign": 0.06976744186046512,
+        "detection_fraction_of_delivered_forged": null,
+        "detection_fraction_of_all_injected_forged": null
+      },
+      "time_aware": {
+        "false_alarm_fraction_of_delivered_benign": 0.0,
+        "detection_fraction_of_delivered_forged": null,
+        "detection_fraction_of_all_injected_forged": null
+      }
+    },
+    "forged": {
+      "ue_count": {
+        "false_alarm_fraction_of_delivered_benign": 0.0,
+        "detection_fraction_of_delivered_forged": 1.0,
+        "detection_fraction_of_all_injected_forged": 1.0
+      },
+      "ue_membership": {
+        "false_alarm_fraction_of_delivered_benign": 0.0,
+        "detection_fraction_of_delivered_forged": 1.0,
+        "detection_fraction_of_all_injected_forged": 1.0
+      },
+      "time_aware": {
+        "false_alarm_fraction_of_delivered_benign": 0.0,
+        "detection_fraction_of_delivered_forged": 1.0,
+        "detection_fraction_of_all_injected_forged": 1.0
+      }
+    },
+    "forged_faults": {
+      "ue_count": {
+        "false_alarm_fraction_of_delivered_benign": 0.07692307692307693,
+        "detection_fraction_of_delivered_forged": 1.0,
+        "detection_fraction_of_all_injected_forged": 0.5
+      },
+      "ue_membership": {
+        "false_alarm_fraction_of_delivered_benign": 0.07692307692307693,
+        "detection_fraction_of_delivered_forged": 1.0,
+        "detection_fraction_of_all_injected_forged": 0.5
+      },
+      "time_aware": {
+        "false_alarm_fraction_of_delivered_benign": 0.0,
+        "detection_fraction_of_delivered_forged": 1.0,
+        "detection_fraction_of_all_injected_forged": 0.5
+      }
+    }
+  },
+  "queued_at_exit": [],
+  "interpretation": "Single paired live fault-channel run; offsets are not exact detection delay."
+}
